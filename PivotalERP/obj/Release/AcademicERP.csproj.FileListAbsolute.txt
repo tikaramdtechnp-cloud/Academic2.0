@@ -1,0 +1,823 @@
+D:\AcademicERP 2.0\PivotalERP\bin\AcademicERP.dll.config
+D:\AcademicERP 2.0\PivotalERP\bin\AcademicERP.dll
+D:\AcademicERP 2.0\PivotalERP\bin\AcademicERP.pdb
+D:\AcademicERP 2.0\PivotalERP\bin\PivotalERP.xml
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\csc.exe
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\csc.exe.config
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\csc.rsp
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\csi.exe
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\csi.exe.config
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\csi.rsp
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\Microsoft.Managed.Core.targets
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.AppContext.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Collections.Immutable.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Console.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.IO.Compression.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.IO.FileSystem.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.IO.Pipes.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Reflection.Metadata.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Security.AccessControl.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Security.Claims.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Security.Principal.Windows.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.ValueTuple.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Xml.XmlDocument.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Xml.XPath.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\vbc.exe
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\vbc.exe.config
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\vbc.rsp
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\VBCSCompiler.exe
+D:\AcademicERP 2.0\PivotalERP\bin\roslyn\VBCSCompiler.exe.config
+D:\AcademicERP 2.0\PivotalERP\bin\AcademicLib.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Antlr3.Runtime.dll
+D:\AcademicERP 2.0\PivotalERP\bin\ClosedXML.dll
+D:\AcademicERP 2.0\PivotalERP\bin\DocumentFormat.OpenXml.dll
+D:\AcademicERP 2.0\PivotalERP\bin\ExcelNumberFormat.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Data.SqlClient.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Identity.Client.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Logging.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Tokens.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Cors.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Security.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Web.Infrastructure.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Newtonsoft.Json.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Owin.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Quartz.dll
+D:\AcademicERP 2.0\PivotalERP\bin\ReportEngine.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Buffers.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Diagnostics.DiagnosticSource.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.IO.Packaging.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Memory.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Net.Http.Formatting.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Numerics.Vectors.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.Cors.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.Helpers.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.Http.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.Http.WebHost.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.Mvc.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.Optimization.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.Razor.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.WebPages.Deployment.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.WebPages.dll
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.WebPages.Razor.dll
+D:\AcademicERP 2.0\PivotalERP\bin\WebGrease.dll
+D:\AcademicERP 2.0\PivotalERP\bin\WebView.dll
+D:\AcademicERP 2.0\PivotalERP\bin\Accounting.dll
+D:\AcademicERP 2.0\PivotalERP\bin\AcademicLib.pdb
+D:\AcademicERP 2.0\PivotalERP\bin\ClosedXML.xml
+D:\AcademicERP 2.0\PivotalERP\bin\DocumentFormat.OpenXml.xml
+D:\AcademicERP 2.0\PivotalERP\bin\ExcelNumberFormat.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Data.SqlClient.pdb
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Data.SqlClient.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Identity.Client.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Logging.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Tokens.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Cors.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Security.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Quartz.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Buffers.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Diagnostics.DiagnosticSource.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Memory.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Numerics.Vectors.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.Helpers.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.Mvc.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.Optimization.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.Razor.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.WebPages.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.WebPages.Deployment.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.WebPages.Razor.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Newtonsoft.Json.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Antlr3.Runtime.pdb
+D:\AcademicERP 2.0\PivotalERP\bin\System.Net.Http.Formatting.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.Http.xml
+D:\AcademicERP 2.0\PivotalERP\bin\System.Web.Http.WebHost.xml
+D:\AcademicERP 2.0\PivotalERP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\AcademicERP 2.0\PivotalERP\bin\de\Microsoft.Data.SqlClient.resources.dll
+D:\AcademicERP 2.0\PivotalERP\bin\es\Microsoft.Data.SqlClient.resources.dll
+D:\AcademicERP 2.0\PivotalERP\bin\fr\Microsoft.Data.SqlClient.resources.dll
+D:\AcademicERP 2.0\PivotalERP\bin\it\Microsoft.Data.SqlClient.resources.dll
+D:\AcademicERP 2.0\PivotalERP\bin\ja\Microsoft.Data.SqlClient.resources.dll
+D:\AcademicERP 2.0\PivotalERP\bin\ko\Microsoft.Data.SqlClient.resources.dll
+D:\AcademicERP 2.0\PivotalERP\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\AcademicERP 2.0\PivotalERP\bin\ru\Microsoft.Data.SqlClient.resources.dll
+D:\AcademicERP 2.0\PivotalERP\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\AcademicERP 2.0\PivotalERP\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\AcademicERP 2.0\PivotalERP\obj\Release\AcademicERP.csprojAssemblyReference.cache
+D:\AcademicERP 2.0\PivotalERP\obj\Release\AcademicERP.csproj.CoreCompileInputs.cache
+D:\AcademicERP 2.0\PivotalERP\obj\Release\AcademicERP.csproj.CopyComplete
+D:\AcademicERP 2.0\PivotalERP\obj\Release\AcademicERP.dll
+D:\AcademicERP 2.0\PivotalERP\obj\Release\AcademicERP.pdb
+D:\AcademicERP 2.0\PivotalERP\bin\DTBEBLDA.dll
+D:\AcademicERP 2.0\PivotalERP\bin\ClosedXML.Extensions.AspNet.dll
+D:\AcademicERP 2.0\PivotalERP\bin\FastMember.Signed.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\AcademicERP.dll.config
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\AcademicERP.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\AcademicERP.pdb
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\PivotalERP.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\AcademicLib.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Antlr3.Runtime.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ClosedXML.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ClosedXML.Extensions.AspNet.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\CRM.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\DocumentFormat.OpenXml.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\DTBEBLDA.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ExcelNumberFormat.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\FastMember.Signed.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Data.SqlClient.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Identity.Client.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Logging.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Tokens.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Cors.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Security.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Newtonsoft.Json.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Owin.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Quartz.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ReportEngine.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Buffers.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.IO.Packaging.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Memory.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Net.Http.Formatting.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Numerics.Vectors.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.Cors.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.Helpers.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.Http.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.Http.WebHost.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.Mvc.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.Optimization.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.Razor.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.WebPages.Deployment.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.WebPages.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.WebPages.Razor.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\WebGrease.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\WebView.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\AcademicLib.pdb
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ClosedXML.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\DocumentFormat.OpenXml.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ExcelNumberFormat.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Data.SqlClient.pdb
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Data.SqlClient.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Identity.Client.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Logging.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.IdentityModel.Tokens.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Cors.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Security.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Quartz.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Buffers.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Memory.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Numerics.Vectors.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.Helpers.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.Mvc.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.Optimization.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.Razor.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.WebPages.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.WebPages.Deployment.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.WebPages.Razor.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Newtonsoft.Json.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Antlr3.Runtime.pdb
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Net.Http.Formatting.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.Http.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\System.Web.Http.WebHost.xml
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\de\Microsoft.Data.SqlClient.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\es\Microsoft.Data.SqlClient.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\it\Microsoft.Data.SqlClient.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\obj\Release\AcademicERP.csprojAssemblyReference.cache
+D:\Web Project\AcademicERP 2.0\PivotalERP\obj\Release\AcademicERP.csproj.CoreCompileInputs.cache
+D:\Web Project\AcademicERP 2.0\PivotalERP\obj\Release\AcademicERP.csproj.CopyComplete
+D:\Web Project\AcademicERP 2.0\PivotalERP\obj\Release\AcademicERP.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\obj\Release\AcademicERP.pdb
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\SqlServerTypes\x64\msvcr120.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\SqlServerTypes\x86\msvcr120.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.ReportViewer.Common.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.ReportViewer.Design.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.ReportViewer.WebDesign.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.ReportViewer.WebForms.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.SqlServer.Types.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\EnvDTE.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.ReportViewer.WinForms.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\stdole.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\Microsoft.MSXML.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Web Project\AcademicERP 2.0\PivotalERP\obj\Release\RdlCompile.cache
+D:\Web Project\AcademicERP 2.0\PivotalERP\obj\Release\RdlCompile.compiled
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\ReportEngine.pdb
+D:\Web Project\AcademicERP 2.0\PivotalERP\bin\WebView.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\SqlServerTypes\x64\msvcr120.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\SqlServerTypes\x86\msvcr120.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\AcademicERP.dll.config
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\AcademicERP.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\AcademicERP.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\PivotalERP.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\AcademicLib.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Antlr3.Runtime.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ClosedXML.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ClosedXML.Extensions.AspNet.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\DocumentFormat.OpenXml.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\DTBEBLDA.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ExcelNumberFormat.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\FastMember.Signed.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Data.SqlClient.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Identity.Client.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Logging.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Tokens.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Cors.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Security.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.Common.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.Design.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.WebDesign.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.WebForms.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Types.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Web.Infrastructure.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Newtonsoft.Json.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Owin.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ReportEngine.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Buffers.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Diagnostics.DiagnosticSource.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.IO.Packaging.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Memory.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Net.Http.Formatting.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Numerics.Vectors.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.Cors.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.Helpers.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.Http.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.Http.WebHost.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.Mvc.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.Optimization.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.Razor.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.WebPages.Deployment.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.WebPages.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.WebPages.Razor.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\WebGrease.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\EnvDTE.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.VisualStudio.Shell.Interop.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.WinForms.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\stdole.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.VisualStudio.OLE.Interop.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.MSXML.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\AcademicLib.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ClosedXML.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\DocumentFormat.OpenXml.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ExcelNumberFormat.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Data.SqlClient.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Data.SqlClient.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Identity.Client.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Logging.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Tokens.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Cors.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Security.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ReportEngine.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Buffers.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Diagnostics.DiagnosticSource.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Memory.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Numerics.Vectors.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.Helpers.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.Mvc.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.Optimization.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.Razor.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.WebPages.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.WebPages.Deployment.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.WebPages.Razor.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Newtonsoft.Json.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Antlr3.Runtime.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Net.Http.Formatting.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.Http.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Web.Http.WebHost.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\obj\Release\AcademicERP.csproj.CoreCompileInputs.cache
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\obj\Release\AcademicERP.csproj.CopyComplete
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\obj\Release\AcademicERP.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\obj\Release\AcademicERP.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\obj\Release\AcademicERP.csproj.AssemblyReference.cache
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\obj\Release\AcademicERP.csproj.ResolveComReference.cache
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\itextsharp.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Accounting.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Data.SQLite.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\DTBEBLDA.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Accounting.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\BouncyCastle.Crypto.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\QRCoder.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Azure.Core.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Azure.Identity.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Ionic.Zip.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Assessment.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Assessment.Types.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.ConnectionInfo.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Dmf.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.RegSvrEnum.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Smo.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.SmoExtended.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.SqlEnum.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Configuration.ConfigurationManager.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Memory.Data.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Security.AccessControl.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Security.Cryptography.ProtectedData.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Security.Permissions.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Security.Principal.Windows.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Text.Encodings.Web.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Text.Json.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Threading.Tasks.Extensions.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.ValueTuple.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Azure.Core.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Azure.Identity.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Assessment.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Assessment.Types.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Configuration.ConfigurationManager.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Memory.Data.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Security.AccessControl.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Security.Permissions.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Security.Principal.Windows.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Text.Encodings.Web.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Text.Json.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Threading.Tasks.Extensions.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.ValueTuple.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\WebView.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\WebView.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Security.Cryptography.Pkcs.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Security.Cryptography.Pkcs.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\NICBank.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\NICBank.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\obj\Release\RdlCompile.cache
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\obj\Release\RdlCompile.compiled
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ClosedXML.Report.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Linq.Dynamic.Core.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\MoreLinq.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\ClosedXML.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Linq.Dynamic.Core.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\System.Linq.Dynamic.Core.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\PivotalERP\bin\MoreLinq.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\SqlServerTypes\x64\msvcr120.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\SqlServerTypes\x86\msvcr120.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\AcademicERP.dll.config
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\AcademicERP.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\AcademicERP.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\PivotalERP.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\AcademicLib.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Antlr3.Runtime.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Azure.Core.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Azure.Identity.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\BouncyCastle.Crypto.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ClosedXML.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ClosedXML.Extensions.AspNet.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ClosedXML.Report.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\DocumentFormat.OpenXml.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\DTBEBLDA.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ExcelNumberFormat.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\FastMember.Signed.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Ionic.Zip.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\itextsharp.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Data.SqlClient.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Identity.Client.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Logging.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Tokens.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Cors.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Security.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.Common.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.Design.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.WebDesign.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.WebForms.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Assessment.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Assessment.Types.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.ConnectionInfo.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Dmf.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.RegSvrEnum.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Smo.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.SmoExtended.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.SqlEnum.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Types.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Web.Infrastructure.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\MoreLinq.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Newtonsoft.Json.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\NICBank.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Owin.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\QRCoder.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ReportEngine.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Buffers.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Configuration.ConfigurationManager.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Diagnostics.DiagnosticSource.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.IO.Packaging.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Memory.Data.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Memory.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Net.Http.Formatting.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Numerics.Vectors.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Security.AccessControl.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Security.Cryptography.Pkcs.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Security.Cryptography.ProtectedData.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Security.Permissions.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Security.Principal.Windows.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Text.Encodings.Web.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Text.Json.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Threading.Tasks.Extensions.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.ValueTuple.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.Cors.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.Helpers.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.Http.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.Http.WebHost.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.Mvc.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.Optimization.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.Razor.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.WebPages.Deployment.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.WebPages.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.WebPages.Razor.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\WebGrease.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\WebView.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Linq.Dynamic.Core.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\EnvDTE.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.ReportViewer.WinForms.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\stdole.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\AcademicLib.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\NICBank.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Azure.Core.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Azure.Identity.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\DocumentFormat.OpenXml.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\DTBEBLDA.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ExcelNumberFormat.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Data.SqlClient.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Data.SqlClient.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Identity.Client.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Logging.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.IdentityModel.Tokens.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Cors.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Security.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Assessment.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Microsoft.SqlServer.Assessment.Types.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ReportEngine.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Buffers.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Configuration.ConfigurationManager.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Diagnostics.DiagnosticSource.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Memory.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Memory.Data.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Numerics.Vectors.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Security.AccessControl.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Security.Cryptography.Pkcs.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Security.Permissions.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Security.Principal.Windows.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Text.Encodings.Web.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Text.Json.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Threading.Tasks.Extensions.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.ValueTuple.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.Helpers.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.Mvc.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.Optimization.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.Razor.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.WebPages.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.WebPages.Deployment.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.WebPages.Razor.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Antlr3.Runtime.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\WebView.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Net.Http.Formatting.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.Http.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Web.Http.WebHost.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\obj\Release\AcademicERP.csproj.AssemblyReference.cache
+D:\OneDrive\live project\Academic 2.0\PivotalERP\obj\Release\AcademicERP.csproj.ResolveComReference.cache
+D:\OneDrive\live project\Academic 2.0\PivotalERP\obj\Release\AcademicERP.csproj.CoreCompileInputs.cache
+D:\OneDrive\live project\Academic 2.0\PivotalERP\obj\Release\AcademicERP.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\obj\Release\AcademicERP.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\CRM.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\CRM.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\UGCLib.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\UGCLib.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ClosedXML.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ClosedXML.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\MoreLinq.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Linq.Dynamic.Core.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\System.Linq.Dynamic.Core.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\ReportEngine.dll.config
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\WebView.dll.config
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\NReco.PdfGenerator.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\NReco.PdfGenerator.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\itextsharp.xml
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Google.Authenticator.dll
+D:\OneDrive\live project\Academic 2.0\PivotalERP\bin\Google.Authenticator.pdb
+D:\OneDrive\live project\Academic 2.0\PivotalERP\obj\Release\Academic.ABE50336.Up2Date

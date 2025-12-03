@@ -1,0 +1,49 @@
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.csproj.AssemblyReference.cache
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.Properties.Resources.resources
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.csproj.GenerateResource.cache
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\obj\Debug\RdlCompile.cache
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\obj\Debug\RdlCompile.compiled
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\ReportTemplateSource.exe.config
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\ReportTemplateSource.exe
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\ReportTemplateSource.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\AcademicLib.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\DTBEBLDA.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\ReportEngine.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\Accounting.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\System.Data.SQLite.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\AcademicLib.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\DTBEBLDA.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\Accounting.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.csproj.CoreCompileInputs.cache
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.csproj.CopyComplete
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.exe
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\BarcodeLib.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\QRCoder.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\itextsharp.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\ReportEngine.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\ReportTemplateSource\bin\Debug\Newtonsoft.Json.dll
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\ReportTemplateSource.exe.config
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\ReportTemplateSource.exe
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\ReportTemplateSource.pdb
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\AcademicLib.dll
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\DTBEBLDA.dll
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\ReportEngine.dll
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\Newtonsoft.Json.dll
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\CRM.dll
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\itextsharp.dll
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\BarcodeLib.dll
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\QRCoder.dll
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\AcademicLib.pdb
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\DTBEBLDA.pdb
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\ReportEngine.pdb
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\ReportEngine.dll.config
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\CRM.pdb
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\bin\Debug\itextsharp.xml
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.csproj.AssemblyReference.cache
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.Properties.Resources.resources
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.csproj.GenerateResource.cache
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.csproj.CoreCompileInputs.cache
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTe.D26932E6.Up2Date
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.exe
+D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.pdb

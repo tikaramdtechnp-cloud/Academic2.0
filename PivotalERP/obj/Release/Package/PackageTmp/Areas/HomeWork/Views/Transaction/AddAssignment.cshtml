@@ -1,0 +1,348 @@
+﻿
+<script src="~/jslib/homework/AddAssignment.js?v=20251115"></script>
+<div class="hold-transition layout-navbar-fixed" ng-app="myApp" ng-controller="AddAssignmentController" ng-init="LoadData()">
+    <section class="content">
+        <div class="container-fluid">
+            <section class="iframe-content-starts-here" style="padding-top: 50px!important;">
+                <div class="homework-add-form" id="homework-add-section">
+                    <div class="card p-0">
+                        <!-- Table nav menu -->
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="form-group mb-2">
+                                    <label for="start">Date from</label>
+                                    <input type="text" class="form-control form-control-sm" date-picker ng-model="newFilter.FromDate_TMP" date-detail="newFilter.FromDateDet">
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group mb-2">
+                                    <label for="start">Date To</label>
+                                    <input type="text" class="form-control form-control-sm" date-picker ng-model="newFilter.ToDate_TMP" date-detail="newFilter.ToDateDet">
+                                </div>
+                            </div>
+                            <div class="col-md-2 mt-4">
+                                <div class="form-group mb-2">
+                                    <button type="button" class="btn btn-sm btn-success" style="min-width: 90px" ng-click="GetAllAddAssignment()">
+                                        <i class="fas fa-sync-alt mr-2"></i> Load
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <header class="row">
+                            <div class="col-md-7">
+                                <div class="clearfix">
+                                    <form class="form-inline">
+                                        <div class="input-group input-group-sm table-search-filed">
+                                            <input class="form-control form-control-navbar" type="search" placeholder="Search"
+                                                   aria-label="Search" ng-model="searchData.AddAssignment" />
+                                            <div class="input-group-append">
+                                                <button class="btn btn-default border-left-0" type="submit">
+                                                    <i class="fas fa-search"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- end col-md-8 -->
+                            <div class="col-md-5 text-right">
+                                <div class="dropdown dnld-file" data-toggle="tooltip" data-placement="top" title="Download File">
+                                    <button class="btn btn-secondary btn-light btn-sm dropdown-toggle" type="button"
+                                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-download"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right"
+                                         aria-labelledby="dropdownMenuButton">
+                                        <span class="dropdown-item">Choose an option:</span>
+                                        <a class="dropdown-item wait" export-excel table-id="'#AddAssignment'" sheet-name="'AddAssignmentList'"><img src="~/wwwroot/dynamic/images/flaticons/excel.png" class="img-fluid exports-icon" alt="Excel image"> Excel</a>
+                                        <a class="dropdown-item wait" onClick="$('#AddAssignment').tableExport({type:'csv',escape:'false'});"><img src="~/wwwroot/dynamic/images/flaticons/csv.png" class="img-fluid exports-icon" alt="Excel image"> CSV</a>
+                                      
+                                    </div>
+                                </div>
+                                <a print-tbl table-id="'#HomeworkType'" href="#" class="btn btn-secondary btn-light btn-sm"
+                                   data-toggle="tooltip" data-placement="top" title="Print">
+                                    <i class="fas fa-print"></i>
+                                </a>
+                                <button type="button" class="btn addBtn btn-sm btn-success" ng-click="ClearAddAssignment()" id="add-homework-add-btn"
+                                        style="min-width: 90px">
+                                    <i class="fas fa-plus w-t"></i> Add Assignment
+                                </button>
+                            </div>
+                        </header>
+                        <!--Table nav menu Ending -->
+                        <div class="table-responsive">
+                            <div class="table-scroll-x-y sales-main-table table-scroll">
+                                <table id="HomeworkType" class="main-table table table-sm table-bordered bg-white">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 50px">S.N.</th>
+                                            <th style="width: 90px">ASSIGNMENT DATE </th>
+                                            <th style="width: 170px">ASSIGNMENT TITLE</th>
+                                            <th style="width: 170px">Teacher</th>
+                                            <th style="width: 110px">CLASS/SECTION</th>
+                                            <th style="width: 110px">SUBJECT</th>
+                                            <th style="width: 170px">DESCRIPTION</th>
+                                            <th style="width: 56px">Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr dir-paginate="cl in AddedAssignmentList | filter:searchData.AddAssignment | itemsPerPage: perPage.AddAssignment" current-page="currentPages.AddAssignment" pagination-id="AddAssignmentPagination">
+                                            <td>{{$index+1}}</td>
+                                            <td>{{cl.AsignDateTime_BS}}</td>
+                                            <td>{{cl.Title}}</td>
+                                            <td>{{cl.TeacherName}}</td>
+                                            <td>{{cl.ClassName}}{{cl.SectionName}}</td>
+                                            <td>{{cl.SubjectName}}</td>
+                                            <td>
+                                                <div class="card-body" ng-bind-html="cl.Description | unsafe">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a class="p-1" href="#" ng-click="GetAddedAssignmentById(cl)">
+                                                    <i class="fas fa-edit text-info"></i>
+                                                </a>
+                                                <a class="p-1" href="#" ng-click="DeleteAddedAssignment(cl)">
+                                                    <i class="fas fa-trash-alt text-danger"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <footer class="row align-items-center">
+                            <div class="col-md-12">
+                                <dir-pagination-controls pagination-id="AddAssignmentPagination" boundary-links="true" on-page-change="pageChangeHandler(newPageNumber)" template-url="/Scripts/dirPagination.tpl.html">
+                                </dir-pagination-controls>
+                            </div>
+                        </footer>
+
+                    </div>
+                </div>
+
+                <div class="homework-add-form" id="homework-add-form">
+                    <div class="card py-2">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Teacher Name</label>
+                                            <select class="form-control form-control-sm select2" ng-model="newAddAssignment.TeacherId" @*ng-change="GetTeacherWiseClassList()"*@>
+                                                <option ng-repeat="T in TeacherNameList" ng-value="T.EmployeeId" ng-selected="newAddAssignment.TeacherId==T.EmployeeId">{{T.Name}}- {{ T.EmployeeCode}}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3" ng-show="AcademicConfig.ActiveBatch==true">
+                                        <label for="">Batch</label>
+                                        <select class="form-control form-control-sm select2" ng-model="newAddAssignment.BatchId">
+                                            <option ng-value="0">**Select Batch**</option>
+                                            <option ng-value="cl.id" ng-repeat="cl in BatchList" ng-selected="cl.id==newAddAssignment.BatchId">{{cl.text}}</option>
+                                        </select>
+                                    </div>
+
+
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Class</label>
+                                            <select class="form-control form-control-sm select2" ng-model="newAddAssignment.SelectedClass">
+                                                <option ng-value="0">**Select Class**</option>
+                                                <option ng-value="cl" ng-repeat="cl in ClassSection.ClassList" ng-selected="cl.id==newAddAssignment.ClassId">{{cl.text}}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Section</label>
+                                            <select class="form-control form-control-sm select2" ng-model="newAddAssignment.SectionId">
+                                                <option ng-repeat="T in SectionList" ng-value="T.SectionId" ng-selected="newAddAssignment.SectionId==T.SectionId">{{T.Name}}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3" ng-show="newAddAssignment.SelectedClass.ClassType==2  &&  AcademicConfig.ActiveClassYear==true">
+                                        <div class="form-group">
+                                            <label for="">Class Year</label>
+                                            <select class="form-control form-control-sm select2" ng-model="newAddAssignment.ClassYearId">
+                                                <option ng-value="0">**Select Year**</option>
+                                                <option ng-value="cl.id" ng-repeat="cl in ClassYearList" ng-selected="cl.id==newAddAssignment.ClassYearId">{{cl.text}}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3" ng-show="newAddAssignment.SelectedClass.ClassType==3 &&  AcademicConfig.ActiveSemester==true">
+                                        <div class="form-group">
+                                            <label for="">Semester</label>
+                                            <select class="form-control form-control-sm select2" ng-model="newAddAssignment.SemesterId">
+                                                <option ng-value="0">**Select Semester**</option>
+                                                <option ng-value="cl.id" ng-repeat="cl in SemesterList" ng-selected="cl.id==newAddAssignment.SemesterId">{{cl.text}}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Subject</label>
+                                            <select class="form-control form-control-sm select2" ng-model="newAddAssignment.SubjectId" ng-change="GetSubjectLessonWise()">
+                                                <option ng-repeat="S in SubjectList" ng-value="S.SubjectId" ng-selected="newAddAssignment.SubjectId==S.SubjectId">{{S.text}}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                   
+
+                                     <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Lesson</label>
+                                            <input type="text" placeholder="" class="form-control form-control-sm" ng-if="!Configuration.AssignmentLesson || newAddAssignment.AssignmentId" ng-disabled="Configuration.AssignmentLesson && newAddAssignment.AssignmentId" ng-model="newAddAssignment.Lesson" />
+                                            <select class="form-control form-control-sm select2" ng-disabled="newAddAssignment.AssignmentId"
+                                                    ng-if="Configuration.AssignmentLesson && !newAddAssignment.AssignmentId" ng-model="newAddAssignment.Lesson"
+                                                    ng-change="GetLessonTopicDetailsWise(newAddAssignment.Lesson)">
+                                                <option ng-repeat="S in SubjectLessonWiseList" value="{{S.LessonName}}">{{S.LessonName}}</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Topic</label>
+                                            <input type="text" placeholder="" class="form-control form-control-sm" ng-if="!Configuration.AssignmentLesson|| newAddAssignment.AssignmentId" ng-disabled="Configuration.AssignmentLesson && newAddAssignment.AssignmentId" ng-model="newAddAssignment.Topic" />
+                                            <select class="form-control form-control-sm select2" ng-disabled="newAddAssignment.AssignmentId" ng-if="Configuration.AssignmentLesson && !newAddAssignment.AssignmentId" ng-model="newAddAssignment.Topic">
+                                                <option ng-repeat="S in LessonTopicDetailsWiseList" ng-value="S.TopicName" @*ng-selected="newAddHomework.Topic==S.TopicId"*@>{{S.TopicName}}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for=""> Assignment Type </label>
+                                            <select class="form-control form-control-sm select2" ng-model="newAddAssignment.AssignmentTypeId">
+                                                <option ng-repeat="T in AssignmentTypeList" ng-value="T.AssignmentTypeId" ng-selected="newAddAssignment.AssignmentTypeId==T.AssignmentTypeId">{{T.Name}}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">Title</label>
+                                            <input type="text" placeholder="" class="form-control form-control-sm" ng-model="newAddAssignment.Title" />
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="">Assignment Description</label>
+                                            <textarea class="textarea" placeholder="Place some text here" style=" width: 100%; height: 183.062px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px; " ng-model="newAddAssignment.Description" @*html-editor*@></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 d-flex">
+                                        <div class="col-md-7">
+                                            <div class="form-group">
+                                                <label for="">Deadline Date</label>
+                                                <input type="text" date-picker ng-model="newAddAssignment.DeadlineDate_TMP" date-detail="newAddAssignment.DeadlineDateDet" placeholder="" class="form-control form-control-sm" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label for="">Time</label>
+                                                <input type="time" placeholder="" class="form-control form-control-sm" ng-model="newAddAssignment.DeadlineTime_TMP" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 d-flex">
+                                        <div class="col-md-7">
+                                            <div class="form-group">
+                                                <label for="">Deadline for Re-do</label>
+                                                <input type="text" date-picker placeholder="" class="form-control form-control-sm" date-detail="newAddAssignment.DeadlineforRedoDet" ng-model="newAddAssignment.DeadlineforRedo_TMP" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label for="">Time</label>
+                                                <input type="time" placeholder="" class="form-control form-control-sm" ng-model="newAddAssignment.DeadlineforRedoTime_TMP" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label>Mark scheme</label>
+                                            <div class="form-group d-flex">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" ng-model="newAddAssignment.MarkScheme" ng-value="1" type="radio" name="exampleRadios" id="exampleRadios5" checked="">
+                                                    <label class="form-check-label" for="exampleRadios5">
+                                                        Markwise
+                                                    </label>
+                                                </div>
+                                                &nbsp;&nbsp;
+
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" ng-model="newAddAssignment.MarkScheme" ng-value="0" name="exampleRadios" id="exampleRadios4">
+                                                    <label class="form-check-label" for="exampleRadios4">
+                                                        Grade wise
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1" id="markfield">
+                                        <div class="form-group">
+                                            <label for="">Marks</label>
+                                            <input type="number" class="form-control form-control-sm ng-pristine ng-untouched ng-valid ng-not-empty" ng-model="newAddAssignment.Marks" placeholder="">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label>File</label>
+                                                    <input id="flHomeWork" type="file" multiple file-model-resize ng-model="Assignment_Files_TMP" after-selected="AfterChooseFile()" fileread="Assignment_Files_Data" accept="image/png, image/gif, image/jpeg, image/jpg" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 d-flex">
+                                        <div class="col-md-3">
+                                            <div class="form-group mt-3">
+                                                <label class="checkbox-wrap">
+                                                    Student Submissions Required?
+                                                    <input type="checkbox" ng-model="newAddAssignment.SubmissionsRequired" />
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group mt-3">
+                                                <label class="checkbox-wrap">
+                                                    Allow Submission After Deadline
+                                                    <input type="checkbox" ng-model="newAddAssignment.IsAllowLateSibmission" />
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time-label pb-3">
+                            <span class="d-block border-0 text-center">
+                                <button type="button" class="btn btn-sm btn-info" id="back-homework-btn" style="min-width: 90px">
+                                    Back to List
+                                </button>
+                                <button type="button" class="btn btn-sm btn-default" style="min-width: 90px;" ng-click="ClearAddHomework()">Reset</button>
+                                <button type="button" class="btn btn-sm btn-success" style="min-width: 90px;" ng-click="SaveUpdateAddAssignment()">{{newAddAssignment.Mode}}</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+</div>

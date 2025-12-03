@@ -1,0 +1,789 @@
+﻿<script src="~/jslib/Exam/Transaction/Attendance.js?v=20251115"></script>
+
+<div class="hold-transition  layout-navbar-fixed" ng-app="myApp" ng-controller="AttendanceController" ng-init="LoadData()">
+    <section class="content">
+        <div class="container-fluid">
+            <section class="iframe-content-starts-here">
+                <div class="tab-content" id="pills-tabContent">
+                    <!-- First Tab Content -->
+                    <!-- Second Tab Content -->
+                    <div class="tab-pane fade show active" id="pills-second" role="tabpanel"
+                         aria-labelledby="pills-second-tab">
+                        <!-- if-page-have-nav-tabs -->
+                        <header class="if-page-have-nav-tabs px-2">
+                            <div class="row upper-tab">
+                                <div class="col-md-12">
+                                    <!-- <h3 class="menu-title">Class Setup</h3> -->
+                                    <ul class="nav nav-tabs cstm-nav-tabs-border-bottom-active" id="myTab"
+                                        role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link active" id="home-tab" data-toggle="tab"
+                                               href="#home" role="tab" aria-controls="home"
+                                               aria-selected="true">Exam Attendance</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="profile-tab" data-toggle="tab"
+                                               href="#profile" role="tab" aria-controls="profile"
+                                               aria-selected="false">Bulk Attendance</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="contact-tab" data-toggle="tab"
+                                               href="#contact" role="tab" aria-controls="contact"
+                                               aria-selected="false">Exam Type Summary</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="medium-tab" data-toggle="tab"
+                                               href="#medium" role="tab" aria-controls="medium"
+                                               aria-selected="false">Exam Type Group Summary</a>
+                                        </li>
+                                        @*<li class="nav-item" role="presentation">
+                                                <a class="nav-link" id="category-tab" data-toggle="tab"
+                                                   href="#category" role="tab" aria-controls="category"
+                                                   aria-selected="false">Parent Exam Group summary</a>
+                                            </li>*@
+                                    </ul>
+                                </div>
+                                <!-- col-md-9 -->
+                                <!-- col-md-3 -->
+                            </div>
+                        </header>
+                        <!-- end if-page-have-nav-tabs -->
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active main-section" id="home" role="tabpanel"
+                                 aria-labelledby="home-tab">
+                                <div class="row mt-2">
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <span>Class</span>
+                                            <select class="form-control form-control-sm select2" data-placeholder="Select Class" ng-model="newExamAttendance.SelectedClass" ng-change="GetClassWiseStudent()">
+                                                <option ng-value="0">**Select Section**</option>
+                                                <option ng-value="se" ng-repeat="se in ClassSection.SectionList ">{{se.text}}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <span>Subject</span>
+                                            <select class="form-control form-control-sm select2" data-placeholder="Select Subject" style="width: 100%;" ng-model="newExamAttendance.Subject">
+                                                <option selected="selected" disabled>Subject</option>
+                                                <option>Maths</option>
+                                                <option>English</option>
+                                                <option>Nepali</option>
+                                                <option>Social</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <span>Paper Type</span>
+                                            <select class="form-control form-control-sm select2" data-placeholder="Select Paper Type" style="width: 100%;" ng-model="newExamAttendance.PaperType">
+                                                <option selected="selected" disabled>Paper Type</option>
+                                                <option>A4</option>
+                                                <option>A3</option>
+                                                <option>Plain</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <span>Exam Type</span>
+                                            <div class="form-group">
+                                                <select class="form-control form-control-sm select2" ng-model="newExamAttendance.ExamTypeId">
+                                                    <option ng-value="0">**Select ExamType**</option>
+                                                    <option ng-value="cl.id" ng-repeat="cl in ExamTypeList" ng-selected="cl.id==newExamAttendance.ExamTypeId">{{cl.text}}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 mt-4">
+                                        <div class="form-group">
+                                            <span for="date">Date :</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card px-0">
+                                    <div class="table-scroll-x-y sales-main-table table-scroll ">
+                                        <table id="main-table" class="main-table table table-sm table-bordered bg-white">
+                                            <thead class="text-center text-nowrap">
+                                                <tr class="text-center">
+                                                    <th style="width: 80px;" ng-click="sort1('RollNo')">Roll No.</th>
+                                                    <th style="width: 100px;" ng-click="sort1('SymbolNo')">Symbol</th>
+                                                    <th style="width: 200px;" ng-click="sort1('Name')">Name</th>
+                                                    <th style="width: 200px;" ng-click="sort1('Subject')">Subject</th>
+                                                    <th style="width: 150px;">
+                                                        <div class="justify-content-center d-flex">
+                                                            Present &nbsp;
+                                                            <div class="custom-control custom-checkbox checkbox-lg text-center" style="margin-top: -5px;">
+                                                                <input type="checkbox" class="custom-control-input" id="select-all-1">
+                                                                <label class="custom-control-label" for="select-all-1"></label>
+                                                            </div>
+
+                                                        </div>
+                                                    </th>
+                                                    <th>
+                                                        <div class="justify-content-center d-flex">
+                                                            Absent
+
+                                                        </div>
+                                                    </th>
+                                                    <th>
+                                                        Late
+                                                        <!-- Late &nbsp;
+                                                        <div class="custom-control custom-checkbox checkbox-lg text-center" style="margin-top: -5px;">
+                                                          <input type="checkbox" class="custom-control-input"  id="select-all">
+                                                          <label class="custom-control-label" for="select-all"></label>
+                                                        </div> -->
+
+
+                                                    </th>
+                                                    <th id="late-heading1" style="padding: 11px;">Late Min.</th>
+
+                                                    <th style="width:250px;">Remarks</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr ng-repeat="ea in newExamAttendance.ExamAttendanceDetailsColl |orderBy:sortKey1:reverse1" class="text-center">
+                                                    <td>{{ea.RollNo}}</td>
+                                                    <td>{{ea.SymbolNo}}</td>
+                                                    <td>{{ea.Name}}</td>
+                                                    <td>{{ea.Subject}}</td>
+                                                    <td>
+                                                        <div class="custom-control custom-checkbox checkbox-lg text-center">
+                                                            <input type="checkbox" class="custom-control-input" id="checkbox-2" ng-model="ea.Present">
+                                                            <label class="custom-control-label" for="checkbox-2"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-control custom-checkbox checkbox-lg text-center">
+                                                            <input type="checkbox" class="custom-control-input" id="checkbox-3" ng-model="ea.Absent">
+                                                            <label class="custom-control-label" for="checkbox-3"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <div class="custom-control custom-checkbox checkbox-lg "
+                                                             id="late1">
+                                                            <input type="checkbox"
+                                                                   class="custom-control-input select-all-late"
+                                                                   id="checkbox-sms-late1"
+                                                                   name="select" ng-model="ea.Late" />
+
+                                                            <label class="custom-control-label"
+                                                                   for="checkbox-sms-late1"></label>
+                                                        </div>
+
+                                                    </td>
+                                                    <td class="text-center" id="time-input">
+                                                        <div>
+                                                            <input type="text"
+                                                                   name=""
+                                                                   class="form-control form-control-sm" ng-model="ea.LateMin" />
+                                                        </div>
+
+                                                    </td>
+                                                    <td>
+                                                        @*<span for="remarks"></span>*@
+                                                        <textarea class="form-control form-control-sm" rows="1" ng-model="ea.Remarks"></textarea>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="time-label">
+                                        <span class="d-block border-0 p-3 text-center">
+                                            <button type="button" class="btn btn-sm btn-default" style="min-width: 90px;" ng-click="ClearExamAttendance()">Reset</button>
+                                            <button type="button" class="btn btn-sm btn-danger" style="min-width: 90px;" ng-click="DelExamAttendance()">Delete</button>
+                                            <button type="button" class="btn btn-sm btn-success" style="min-width: 90px;" ng-click="SaveUpdateExamAttendance()">{{newExamAttendance.Mode}}</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade main-section" id="profile" role="tabpanel"
+                                 aria-labelledby="profile-tab">
+                                <div id="designation-section">
+                                    <div class="row mt-2">
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <span>Class</span>
+                                                <select class="form-control form-control-sm select2" data-placeholder="Select Class" ng-model="newBulkAttendance.SelectedClass" ng-change="GetClassWiseStudentBA()">
+                                                    <option ng-value="0">**Select Section**</option>
+                                                    <option ng-value="se" ng-repeat="se in ClassSection.SectionList ">{{se.text}}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <span>Exam Type</span>
+                                                <div class="form-group">
+                                                    <select class="form-control form-control-sm select2" ng-model="newBulkAttendance.ExamTypeId" ng-change="GetClassWiseStudentBA()">
+                                                        <option ng-value="0">**Select ExamType**</option>
+                                                        <option ng-value="cl.id" ng-repeat="cl in ExamTypeList" ng-selected="cl.id==newBulkAttendance.ExamTypeId">{{cl.text}}</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-2">
+                                            <span>From Date</span>
+                                            <input type="text" class="form-control form-control-sm"
+                                                   ng-model="newBulkAttendance.FromDate_TMP" date-picker date-detail="newBulkAttendance.FromDateDet">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <span>To Date</span>
+                                            <input type="text" class="form-control form-control-sm"
+                                                   ng-model="newBulkAttendance.ToDate_TMP" date-picker date-detail="newBulkAttendance.ToDateDet">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <span>Working Days</span>
+                                                <input type="number" class="form-control form-control-sm" ng-model="newBulkAttendance.WorkingDays" ng-change="ChangeWorkingDays()">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 mt-4">
+                                            <button type="button" class="btn btn-secondary btn-sm" ng-click="ImportAttendance()"><i class="ti-download"></i> Import</button>
+                                        </div>
+                                    </div>
+                                    <div class="card px-0">
+                                        <div class="table-scroll-x-y sales-main-table table-scroll ">
+                                            <table id="main-table" class="main-table table table-sm table-bordered bg-white">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 80px;" ng-click="sort2('RollNo')">Roll No.</th>
+                                                        <th style="width: 250px;" ng-click="sort2('Name')">Name</th>
+                                                        <th style="width: 100px;" ng-click="sort2('PresentDays')">Present Days</th>
+                                                        <th style="width: 100px;" ng-click="sort2('AbsentDays')">Absent Days</th>
+                                                        <th style="width: 300px;" ng-click="sort2('Remarks')">Remarks</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr ng-repeat="ba in newBulkAttendance.StudentList |orderBy:sortKey2:reverse2">
+                                                        <td>{{ba.RollNo}}</td>
+                                                        <td>{{ba.Name}}</td>
+                                                        <td>
+                                                            <input type="number" class="form-control form-control-sm serial" onfocus="this.select();" placeholder="" ng-model="ba.PresentDays" ng-change="ChangePADays(1,ba)">
+                                                        </td>
+                                                        <td>
+                                                            <input type="number" class="form-control form-control-sm serial" onfocus="this.select();" placeholder="" ng-model="ba.AbsentDays" ng-change="ChangePADays(2,ba)">
+                                                        </td>
+                                                        <td>
+                                                            <textarea class="form-control form-control-sm serial" rows="1" ng-model="ba.Remarks"></textarea>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- table end -->
+                                        </div>
+                                    </div>
+
+                                    <div class="time-label">
+                                        <span class="d-block border-0 p-3 text-center">
+                                            <button type="button" class="btn btn-sm btn-default" style="min-width: 90px;" ng-click="ClearBulkAttendance()">Reset</button>
+                                            @*<button type="button" class="btn btn-sm btn-danger" style="min-width: 90px;" ng-click="DelBulkAttendance()">Delete</button>*@
+                                            <button type="button" class="btn btn-sm btn-success" style="min-width: 90px;" ng-click="SaveUpdateBulkAttendance()">{{newBulkAttendance.Mode}}</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade main-section" id="contact" role="tabpanel"
+                                 aria-labelledby="contact-tab">
+                                <div id="level-section">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label>Exam Type</label>
+                                            <div class="form-group mb-0">
+                                                <select class="form-control form-control-sm select2" ng-model="newExamTypeSummary.ExamTypeId">
+                                                    <option ng-value="0">**Select ExamType**</option>
+                                                    <option ng-value="cl.id" ng-repeat="cl in ExamTypeList" ng-selected="cl.id==newExamTypeSummary.ExamTypeId">{{cl.text}}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body py-2 px-0">
+                                            <header class="row">
+                                                <div class="col-md-7">
+                                                    <div class="clearfix">
+                                                        <form class="form-inline">
+                                                            <div class="input-group input-group-sm mr-sm-2">
+                                                                <div class="input-group-prepend">
+                                                                    <label class="input-group-text cstm">Show</label>
+                                                                </div>
+                                                                <!-- <input type="text" class="form-control border-left-0" placeholder=""> -->
+                                                                <select class="form-control border-left-0 border-right-0 pr-0" ng-model="perPage.ExamTypeSummary">
+                                                                    <option ng-value="pp.value" ng-repeat="pp in perPageColl" ng-selected="pp.value==perPage.ExamTypeSummary">{{pp.text}}</option>
+                                                                </select>
+                                                                <div class="input-group-append">
+                                                                    <span class="input-group-text bg-white"><small>entries</small></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="input-group input-group-sm table-search-filed">
+                                                                <input class="form-control form-control-navbar"
+                                                                       type="search"
+                                                                       placeholder="Search"
+                                                                       aria-label="Search" ng-model="searchData.ExamTypeSummary" />
+                                                                <div class="input-group-append">
+                                                                    <button class="btn btn-default border-left-0"
+                                                                            type="submit">
+                                                                        <i class="fas fa-search"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <!-- end col-md-8 -->
+                                                <div class="col-md-5 text-right">
+                                                    
+                                                    <div class="dropdown dnld-file"
+                                                         data-toggle="tooltip"
+                                                         data-placement="top"
+                                                         title="Download File">
+                                                        <button class="btn btn-secondary btn-light btn-sm dropdown-toggle"
+                                                                type="button"
+                                                                id="dropdownMenuButton"
+                                                                data-toggle="dropdown"
+                                                                aria-haspopup="true"
+                                                                aria-expanded="false">
+                                                            <i class="fas fa-download"></i>
+                                                        </button>
+                                                        <div class="dropdown-menu dropdown-menu-right"
+                                                             aria-labelledby="dropdownMenuButton">
+                                                            <span class="dropdown-item">Choose an option:</span>
+                                                            <a class="dropdown-item" href="#">
+                                                                <img src="~/wwwroot/dynamic/images/flaticons/excel.png"
+                                                                     class="img-fluid exports-icon"
+                                                                     alt="Excel image" />
+                                                                Excel
+                                                            </a>
+                                                            <a class="dropdown-item" href="#">
+                                                                <img src="~/wwwroot/dynamic/images/flaticons/csv.png"
+                                                                     class="img-fluid exports-icon"
+                                                                     alt="Excel image" />
+                                                                CSV
+                                                            </a>                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </header>
+                                            <div class="table-scroll-x-y sales-main-table table-scroll">
+                                                <table id="main-table" class="main-table table table-sm table-bordered bg-white">
+                                                    <thead class="text-nowrap">
+                                                        <tr>
+                                                            <th style="width: 100px;" ng-click="sort3('ID')">ID</th>
+                                                            <th style="width: 100px;" ng-click="sort3('RegdNo')">Regd No.</th>
+                                                            <th style="width: 100px;" ng-click="sort3('ClassSection')">Class/Sec</th>
+                                                            <th style="width: 100px;" ng-click="sort3('RollNo')">Roll No.</th>
+                                                            <th style="width: 250px;" ng-click="sort3('Name')">Name</th>
+                                                            <th style="width: 250px;" ng-click="sort3('ParentName')">Parent's Name</th>
+                                                            <th style="width: 150px;" ng-click="sort3('ContactNo')">Contact No.</th>
+                                                            <th style="width: 250px;" ng-click="sort3('Address')">Address</th>
+                                                            <th style="width: 130px;" ng-click="sort3('WorkingDays')">Working Days</th>
+                                                            <th style="width: 130px;" ng-click="sort3('PresentDays')">Present Days</th>
+                                                            <th style="width: 130px;" ng-click="sort3('AbsentDays')">Absent Days</th>
+                                                            <th style="width: 100px;" ng-click="sort3('PresentPer')">Present %</th>
+                                                            <th style="width: 100px;" ng-click="sort3('AbsentPer')">Absent %</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr dir-paginate="ets in ExamTypeSummaryList |orderBy:sortKey3:reverse3 | filter:searchData.ExamTypeSummary | itemsPerPage: perPage.ExamTypeSummary" current-page="currentPages.ExamTypeSummary">
+
+                                                            <td>{{ets.ID}}</td>
+                                                            <td>{{ets.RegdNo}}</td>
+                                                            <td>{{ets.ClassSection}}</td>
+                                                            <td>{{ets.RollNo}}</td>
+                                                            <td>{{ets.Name}}</td>
+                                                            <td>{{ets.ParentName}}</td>
+                                                            <td>{{ets.ContactNo}}</td>
+                                                            <td>{{ets.Address}}</td>
+                                                            <td>{{ets.WorkingDays}}</td>
+                                                            <td>{{ets.PresentDays}}</td>
+                                                            <td>{{ets.AbsentDays}}</td>
+                                                            <td>{{ets.PresentPer}}</td>
+                                                            <td>{{ets.AbsentPer}}</td>
+                                                        </tr>
+
+                                                    </tbody>
+                                                </table>
+                                                <!-- table end -->
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade main-section" id="medium" role="tabpanel"
+                                 aria-labelledby="medium-tab">
+                                <div id="service-type-section">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group mb-0">
+                                                <span>Exam Type Group</span>
+                                                <select class="form-control form-control-sm select2" data-placeholder="Select Exam type" style="width: 100%;" ng-model="newExamTypeGroup.ExamType">
+                                                    <option selected="selected" disabled>Exam Type Group</option>
+                                                    <option>1st Terminal</option>
+                                                    <option>3rd Terminal</option>
+                                                    <option>Class Test</option>
+                                                    <option>Final Exam</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card py-2">
+                                        <header class="row">
+                                            <div class="col-md-7">
+                                                <div class="clearfix">
+                                                    <form class="form-inline">
+                                                        <div class="input-group input-group-sm mr-sm-2">
+                                                            <div class="input-group-prepend">
+                                                                <label class="input-group-text cstm">Show</label>
+                                                            </div>
+                                                            <!-- <input type="text" class="form-control border-left-0" placeholder=""> -->
+                                                            <select class="form-control border-left-0 border-right-0 pr-0" ng-model="perPage.ExamTypeGroup">
+                                                                <option ng-value="pp.value" ng-repeat="pp in perPageColl" ng-selected="pp.value==perPage.ExamTypeGroup">{{pp.text}}</option>
+                                                            </select>
+                                                            <div class="input-group-append">
+                                                                <span class="input-group-text bg-white"><small>entries</small></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="input-group input-group-sm table-search-filed">
+                                                            <input class="form-control form-control-navbar"
+                                                                   type="search"
+                                                                   placeholder="Search"
+                                                                   aria-label="Search" ng-model="searchData.ExamTypeGroup" />
+                                                            <div class="input-group-append">
+                                                                <button class="btn btn-default border-left-0"
+                                                                        type="submit">
+                                                                    <i class="fas fa-search"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <!-- end col-md-8 -->
+                                            <div class="col-md-5 text-right">
+                                               
+                                                <div class="dropdown dnld-file"
+                                                     data-toggle="tooltip"
+                                                     data-placement="top"
+                                                     title="Download File">
+                                                    <button class="btn btn-secondary btn-light btn-sm dropdown-toggle"
+                                                            type="button"
+                                                            id="dropdownMenuButton"
+                                                            data-toggle="dropdown"
+                                                            aria-haspopup="true"
+                                                            aria-expanded="false">
+                                                        <i class="fas fa-download"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu dropdown-menu-right"
+                                                         aria-labelledby="dropdownMenuButton">
+                                                        <span class="dropdown-item">Choose an option:</span>
+                                                        <a class="dropdown-item" href="#">
+                                                            <img src="~/wwwroot/dynamic/images/flaticons/excel.png"
+                                                                 class="img-fluid exports-icon"
+                                                                 alt="Excel image" />
+                                                            Excel
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
+                                                            <img src="~/wwwroot/dynamic/images/flaticons/csv.png"
+                                                                 class="img-fluid exports-icon"
+                                                                 alt="Excel image" />
+                                                            CSV
+                                                        </a>
+                                                       
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </header>
+                                        <div class="table-scroll-x-y sales-main-table table-scroll">
+                                            <table id="main-table" class="main-table table table-sm table-bordered bg-white">
+                                                <thead class="text-nowrap">
+                                                    <tr>
+                                                        <th style="width: 70px;" ng-click="sort4('ID')">ID</th>
+                                                        <th style="width: 90px;" ng-click="sort4('RegdNo')">Regd No.</th>
+                                                        <th style="width: 100px;" ng-click="sort4('ClassSection')">Class/Sec</th>
+                                                        <th style="width: 90px;" ng-click="sort4('RollNo')">Roll No.</th>
+                                                        <th style="width: 250px;" ng-click="sort4('Name')">Name</th>
+                                                        <th style="width: 250px;" ng-click="sort4('ParentName')">Parent's Name</th>
+                                                        <th style="width: 120px;" ng-click="sort4('ContactNo')">Contact No.</th>
+                                                        <th style="width: 200px;" ng-click="sort4('Address')">Address</th>
+                                                        <th style="width: 130px;" ng-click="sort4('WorkingDays')">Working Days</th>
+                                                        <th style="width: 130px;" ng-click="sort4('PresentDays')">Present Days</th>
+                                                        <th style="width: 130px;" ng-click="sort4('AbsentDays')">Absent Days</th>
+                                                        <th style="width: 130px;" ng-click="sort4('PresentPer')">Present %</th>
+                                                        <th style="width: 130px;" ng-click="sort4('AbsentPer')">Absent %</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr dir-paginate="etg in ExamTypeGroupList  |orderBy:sortKey4:reverse4 | filter:searchData.ExamTypeGroup | itemsPerPage: perPage.ExamTypeGroup" current-page="currentPages.ExamTypeGroup">
+
+                                                        <td>{{etg.ID}}</td>
+                                                        <td>{{etg.RegdNo}}</td>
+                                                        <td>{{etg.ClassSection}}</td>
+                                                        <td>{{etg.RollNo}}</td>
+                                                        <td>{{etg.Name}}</td>
+                                                        <td>{{etg.ParentName}}</td>
+                                                        <td>{{etg.ContactNo}}</td>
+                                                        <td>{{etg.Address}}</td>
+                                                        <td>{{etg.WorkingDays}}</td>
+                                                        <td>{{etg.PresentDays}}</td>
+                                                        <td>{{etg.AbsentDays}}</td>
+                                                        <td>{{etg.PresentPer}}</td>
+                                                        <td>{{etg.AbsentPer}}</td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                            <!-- table end -->
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade main-section" id="category" role="tabpanel"
+                                 aria-labelledby="category-tab">
+                                <div id="category-section">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <span>Parent Exam Type Group</span>
+                                                <select class="form-control form-control-sm select2" data-placeholder="Select Exam type" style="width: 100%;" ng-model="newParentExamGroup.ExamType">
+                                                    <option selected="selected" disabled>Parent Exam Type Group</option>
+                                                    <option>2nd Terminal</option>
+                                                    <option>3rd Terminal</option>
+                                                    <option>Class Test</option>
+                                                    <option>Final Exam</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card p-2">
+                                        <header class="row mb-2">
+                                            <div class="col-md-7">
+                                                <div class="clearfix">
+                                                    <form class="form-inline">
+                                                        <div class="input-group input-group-sm mr-sm-2">
+                                                            <div class="input-group-prepend">
+                                                                <label class="input-group-text cstm">Show</label>
+                                                            </div>
+
+                                                            <select class="form-control border-left-0 border-right-0 pr-0" ng-model="perPage.ParentExamGroup">
+                                                                <option ng-value="pp.value" ng-repeat="pp in perPageColl" ng-selected="pp.value==perPage.ParentExamGroup">{{pp.text}}</option>
+                                                            </select>
+                                                            <div class="input-group-append">
+                                                                <span class="input-group-text bg-white"><small>entries</small></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="input-group input-group-sm table-search-filed">
+                                                            <input class="form-control form-control-navbar"
+                                                                   type="search"
+                                                                   placeholder="Search"
+                                                                   aria-label="Search" ng-model="searchData.ParentExamGroup" />
+                                                            <div class="input-group-append">
+                                                                <button class="btn btn-default border-left-0"
+                                                                        type="submit">
+                                                                    <i class="fas fa-search"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <!-- end col-md-8 -->
+                                            <div class="col-md-5 text-right">
+                                                <div class="dropdown no-caret d-inline-block">
+                                                    <button type="button"
+                                                            class="btn btn-secondary btn-light btn-sm dropdown-toggle"
+                                                            data-toggle="dropdown">
+                                                        <i class="fas fa-columns"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu cstm-column-visibility dropdown-menu-right">
+                                                        <span class="dropdown-item">Column Visibility:</span>
+                                                        <li>
+                                                            <a href="#"
+                                                               class="small dropdown-item"
+                                                               data-value="option1"
+                                                               tabindex="-1">
+                                                                <label class="checkbox-wrap">
+                                                                    Name
+                                                                    <input type="checkbox" checked />
+                                                                    <span class="checkmark"></span>
+                                                                </label>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"
+                                                               class="small dropdown-item"
+                                                               data-value="option2"
+                                                               tabindex="-1">
+                                                                <label class="checkbox-wrap">
+                                                                    Position
+                                                                    <input type="checkbox" checked />
+                                                                    <span class="checkmark"></span>
+                                                                </label>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"
+                                                               class="small dropdown-item"
+                                                               data-value="option3"
+                                                               tabindex="-1">
+                                                                <label class="checkbox-wrap">
+                                                                    Office
+                                                                    <input type="checkbox" checked />
+                                                                    <span class="checkmark"></span>
+                                                                </label>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"
+                                                               class="small dropdown-item"
+                                                               data-value="option3"
+                                                               tabindex="-1">
+                                                                <label class="checkbox-wrap">
+                                                                    Age
+                                                                    <input type="checkbox" checked />
+                                                                    <span class="checkmark"></span>
+                                                                </label>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"
+                                                               class="small dropdown-item"
+                                                               data-value="option3"
+                                                               tabindex="-1">
+                                                                <label class="checkbox-wrap">
+                                                                    Salary
+                                                                    <input type="checkbox" checked />
+                                                                    <span class="checkmark"></span>
+                                                                </label>
+                                                            </a>
+                                                        </li>
+                                                        <li class="btns-wrap">
+                                                            <a href="#" class="btn btn-link btn-sm">Restore</a>
+                                                            <a href="#" class="btn btn-secondary btn-sm">Appy</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dropdown dnld-file"
+                                                     data-toggle="tooltip"
+                                                     data-placement="top"
+                                                     title="Download File">
+                                                    <button class="btn btn-secondary btn-light btn-sm dropdown-toggle"
+                                                            type="button"
+                                                            id="dropdownMenuButton"
+                                                            data-toggle="dropdown"
+                                                            aria-haspopup="true"
+                                                            aria-expanded="false">
+                                                        <i class="fas fa-download"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu dropdown-menu-right"
+                                                         aria-labelledby="dropdownMenuButton">
+                                                        <span class="dropdown-item">Choose an option:</span>
+                                                        <a class="dropdown-item" href="#">
+                                                            <img src="./dynamic/images/flaticons/excel.png"
+                                                                 class="img-fluid exports-icon"
+                                                                 alt="Excel image" />
+                                                            Excel
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
+                                                            <img src="./dynamic/images/flaticons/csv.png"
+                                                                 class="img-fluid exports-icon"
+                                                                 alt="Excel image" />
+                                                            CSV
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
+                                                            <img src="./dynamic/images/flaticons/pdf.png"
+                                                                 class="img-fluid exports-icon"
+                                                                 alt="Excel image" />
+                                                            PDF
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
+                                                            <img src="./dynamic/images/flaticons/word.png"
+                                                                 class="img-fluid exports-icon"
+                                                                 alt="Excel image" />
+                                                            Word
+                                                        </a>
+                                                        <a class="dropdown-item" href="#">
+                                                            <img src="./dynamic/images/flaticons/gmail.png"
+                                                                 class="img-fluid exports-icon"
+                                                                 alt="Excel image" />
+                                                            Mail
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </header>
+                                        <div class="table-scroll-x-y sales-main-table table-scroll">
+
+                                            <table id="main-table" class="main-table table table-sm table-bordered bg-white">
+                                                <thead class="text-nowrap">
+                                                    <tr>
+                                                        <th style="width: 90px;">ID</th>
+                                                        <th style="width: 100px;">Regd No.</th>
+                                                        <th style="width: 100px;">Class/Sec</th>
+                                                        <th style="width: 100px;">Roll No.</th>
+                                                        <th style="width: 250px;">Name</th>
+                                                        <th style="width: 250px;">Parent's Name</th>
+                                                        <th style="width: 150px;">Contact No.</th>
+                                                        <th style="width: 200px;">Address</th>
+                                                        <th style="width: 150px;">Working Days</th>
+                                                        <th style="width: 150px;">Present Days</th>
+                                                        <th style="width: 150px;">Absent Days</th>
+                                                        <th style="width: 150px;">Present %</th>
+                                                        <th style="width: 150px;">Absent %</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr dir-paginate="peg in ParentExamGroupList | filter:searchData.ParentExamGroup | itemsPerPage: perPage.ParentExamGroup" current-page="currentPages.ParentExamGroup">
+
+                                                        <td>{{peg.ID}}</td>
+                                                        <td>{{peg.RegdNo}}</td>
+                                                        <td>{{peg.ClassSection}}</td>
+                                                        <td>{{peg.RollNo}}</td>
+                                                        <td>{{peg.Name}}</td>
+                                                        <td>{{peg.ParentName}}</td>
+                                                        <td>{{peg.ContactNo}}</td>
+                                                        <td>{{peg.Address}}</td>
+                                                        <td>{{peg.WorkingDays}}</td>
+                                                        <td>{{peg.PresentDays}}</td>
+                                                        <td>{{peg.AbsentDays}}</td>
+                                                        <td>{{peg.PresentPer}}</td>
+                                                        <td>{{peg.AbsentPer}}</td>
+                                                    </tr>
+
+
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </section>
+    </div>

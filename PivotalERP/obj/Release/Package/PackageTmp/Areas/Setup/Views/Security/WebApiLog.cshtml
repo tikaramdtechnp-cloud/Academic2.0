@@ -1,0 +1,69 @@
+﻿
+<script src="~/jslib/setup/security.js?v=20251115"></script>
+
+<div class="hold-transition  layout-navbar-fixed" ng-app="myApp" ng-controller="webapiLogCtrl" ng-class="{waiting: loadingstatus=='running'}">
+    <section class="content">
+        <div class="container-fluid">
+            <section class="iframe-content-starts-here">
+                @RenderPage("~/Views/Global/_WaitDialog.cshtml")
+                <div class="row">
+                    <div class="col-sm-5">
+                        <label>WEB API REQUEST &amp; RESPONSE LOG:</label>
+                    </div>
+                    <div class="input-group input-group-sm col-sm-2">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">User:</span>
+                        </div>
+                        <input type="text" class="form-control form-control-sm" ng-model="ForUser" />
+                    </div>
+                    <div class="input-group input-group-sm col-sm-2">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">From:</span>
+                        </div>
+                        <input type="text" class="form-control form-control-sm" ng-model="DateFrom_TMP" date-picker date-detail="DateFromDet" before-days="40" after-days="40" />
+                    </div>
+                    <div class="input-group input-group-sm col-sm-2">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">To:</span>
+                        </div>
+                        <input type="text" class="form-control form-control-sm" ng-model="DateTo_TMP" date-picker date-detail="DateToDet" before-days="40" after-days="40" />
+                    </div>
+                    <div class="col-sm-1">
+                        <div class="form-group">
+                            <a href="#" class="btn btn-primary btn-sm" style="float: right; max-width: 100px" data-toggle="tooltip" data-placement="top" title="" data-original-title="Load" ng-click="GetData()" ng-disabled="loadingstatus=='running'"><i class="fas fa-download">Load</i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="datatable" style="height: 500px;width: 100%;" class="ag-theme-balham"></div>
+                    </div>
+                </div>
+
+                <footer class="main-footer control-btns">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="form-group row">
+                                <div class="input-group input-group-sm">
+                                    <div class="input-group-prepend">
+                                        <label>Find :</label>
+                                    </div>
+                                    <input type="text" name="table_search" class="form-control text-dark input-sm" placeholder="Search" ng-model="search" ng-change="onFilterTextBoxChanged()">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <button type="button" class="btn-secondary btn-sm"><i class="fas fa-print" ng-disabled="loadingstatus=='running'">Print</i></button>
+                            <button type="button" class="btn-primary btn-sm" ng-click="onBtExport()"><i class="fas fa-file-export" ng-disabled="loadingstatus=='running'">Export</i></button>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+
+        </div>
+
+    </section>
+</div>

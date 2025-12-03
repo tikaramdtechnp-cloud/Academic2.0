@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Dynamic.DataAccess.Global;
+
+namespace AcademicLib.BE
+{
+
+	public class PayrollConfig : ResponeValues
+	{
+
+		public int? TranId { get; set; }
+		public int? JV_VoucherId { get; set; }
+		public int? JV_CostClassId { get; set; }
+		public bool JV_AutoGenerate { get; set; }
+		public bool JV_AutoCancelRegenerate { get; set; }
+		public int? PV_VoucherId { get; set; }
+		public int? PV_CostClassId { get; set; }
+		public bool PV_AutoGenerate { get; set; }
+		public bool PV_AutoCancelRegenerate { get; set; }
+
+		public int? AV_VoucherId { get; set; }
+		public int? AV_CostClassId { get; set; }
+		public bool AV_AutoGenerate { get; set; }
+		public bool AV_AutoCancelRegenerate { get; set; }
+		public int NoOfDecimal { get; set; }
+	}
+	public class PayrollConfigCollections : System.Collections.Generic.List<PayrollConfig>
+	{
+		public PayrollConfigCollections()
+		{
+			ResponseMSG = "";
+		}
+		public string ResponseMSG { get; set; }
+		public bool IsSuccess { get; set; }
+	}
+}
+
+

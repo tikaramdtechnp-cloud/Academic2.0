@@ -1,0 +1,59 @@
+D:\AcademicERP 2.0\AcademicLib\bin\Release\AcademicLib.dll
+D:\AcademicERP 2.0\AcademicLib\bin\Release\AcademicLib.pdb
+D:\AcademicERP 2.0\AcademicLib\bin\Release\ReportEngine.dll
+D:\AcademicERP 2.0\AcademicLib\bin\Release\Accounting.dll
+D:\AcademicERP 2.0\AcademicLib\obj\Release\AcademicLib.csprojAssemblyReference.cache
+D:\AcademicERP 2.0\AcademicLib\obj\Release\AcademicLib.csproj.CoreCompileInputs.cache
+D:\AcademicERP 2.0\AcademicLib\obj\Release\AcademicLib.csproj.CopyComplete
+D:\AcademicERP 2.0\AcademicLib\obj\Release\AcademicLib.dll
+D:\AcademicERP 2.0\AcademicLib\obj\Release\AcademicLib.pdb
+D:\AcademicERP 2.0\AcademicLib\bin\Release\DTBEBLDA.dll
+D:\Web Project\AcademicERP 2.0\AcademicLib\bin\Release\AcademicLib.dll
+D:\Web Project\AcademicERP 2.0\AcademicLib\bin\Release\AcademicLib.pdb
+D:\Web Project\AcademicERP 2.0\AcademicLib\bin\Release\DTBEBLDA.dll
+D:\Web Project\AcademicERP 2.0\AcademicLib\bin\Release\ReportEngine.dll
+D:\Web Project\AcademicERP 2.0\AcademicLib\obj\Release\AcademicLib.csproj.CoreCompileInputs.cache
+D:\Web Project\AcademicERP 2.0\AcademicLib\obj\Release\AcademicLib.csproj.CopyComplete
+D:\Web Project\AcademicERP 2.0\AcademicLib\obj\Release\AcademicLib.dll
+D:\Web Project\AcademicERP 2.0\AcademicLib\obj\Release\AcademicLib.pdb
+D:\Web Project\AcademicERP 2.0\AcademicLib\obj\Release\AcademicLib.csprojAssemblyReference.cache
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\AcademicLib.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\AcademicLib.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\DTBEBLDA.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\obj\Release\AcademicLib.csproj.CoreCompileInputs.cache
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\obj\Release\AcademicLib.csproj.CopyComplete
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\obj\Release\AcademicLib.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\obj\Release\AcademicLib.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\obj\Release\AcademicLib.csproj.AssemblyReference.cache
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\Accounting.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\System.Data.SQLite.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\DTBEBLDA.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\Accounting.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\BarcodeLib.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\QRCoder.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\itextsharp.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\ReportEngine.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\ReportEngine.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\Newtonsoft.Json.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\AcademicLib\bin\Release\Newtonsoft.Json.xml
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\AcademicLib.dll
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\AcademicLib.pdb
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\DTBEBLDA.dll
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\Newtonsoft.Json.dll
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\ReportEngine.dll
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\itextsharp.dll
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\BarcodeLib.dll
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\QRCoder.dll
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\DTBEBLDA.pdb
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\ReportEngine.pdb
+D:\OneDrive\live project\Academic 2.0\AcademicLib\obj\Release\AcademicLib.csproj.AssemblyReference.cache
+D:\OneDrive\live project\Academic 2.0\AcademicLib\obj\Release\AcademicLib.csproj.CoreCompileInputs.cache
+D:\OneDrive\live project\Academic 2.0\AcademicLib\obj\Release\AcademicLib.dll
+D:\OneDrive\live project\Academic 2.0\AcademicLib\obj\Release\AcademicLib.pdb
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\CRM.dll
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\CRM.pdb
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\ReportEngine.dll.config
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\itextsharp.xml
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\BouncyCastle.Cryptography.dll
+D:\OneDrive\live project\Academic 2.0\AcademicLib\bin\Release\BouncyCastle.Cryptography.xml
+D:\OneDrive\live project\Academic 2.0\AcademicLib\obj\Release\Academic.88CA0013.Up2Date

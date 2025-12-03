@@ -1,0 +1,191 @@
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\StudentLogin.dll.config
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\StudentLogin.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\StudentLogin.pdb
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\csc.exe
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\csc.exe.config
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\csc.rsp
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\csi.exe
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\csi.exe.config
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\csi.rsp
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\Microsoft.Managed.Core.targets
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.AppContext.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Collections.Immutable.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Console.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Globalization.Calendars.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.IO.Compression.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.IO.FileSystem.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Net.Http.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Net.Sockets.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Reflection.Metadata.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.ValueTuple.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Xml.XmlDocument.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Xml.XPath.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\vbc.exe
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\vbc.exe.config
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\vbc.rsp
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\VBCSCompiler.exe
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\roslyn\VBCSCompiler.exe.config
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\Antlr3.Runtime.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\Microsoft.Web.Infrastructure.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\Newtonsoft.Json.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.Helpers.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.Mvc.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.Optimization.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.Razor.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.WebPages.Deployment.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.WebPages.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.WebPages.Razor.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\WebGrease.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.Helpers.xml
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.Mvc.xml
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.Optimization.xml
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.Razor.xml
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.WebPages.xml
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.WebPages.Deployment.xml
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\System.Web.WebPages.Razor.xml
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\Newtonsoft.Json.xml
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\Antlr3.Runtime.pdb
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\obj\Release\StudentLogin.csprojAssemblyReference.cache
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\obj\Release\StudentLogin.csproj.CoreCompileInputs.cache
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\obj\Release\StudentLogin.csproj.CopyComplete
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\obj\Release\StudentLogin.dll
+G:\New_Project\DataBase\All_Main_Prj\New folder\StudentLogin-CRUD\StudentLogin\obj\Release\StudentLogin.pdb
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\StudentLogin.dll.config
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\StudentLogin.dll
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\StudentLogin.pdb
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\Antlr3.Runtime.dll
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\Newtonsoft.Json.dll
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.Helpers.dll
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.Mvc.dll
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.Optimization.dll
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.Razor.dll
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.Deployment.dll
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.dll
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.Razor.dll
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\WebGrease.dll
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.Helpers.xml
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.Mvc.xml
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.Optimization.xml
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.Razor.xml
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.xml
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.Deployment.xml
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.Razor.xml
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\Newtonsoft.Json.xml
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\bin\Antlr3.Runtime.pdb
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.csprojAssemblyReference.cache
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.csproj.CoreCompileInputs.cache
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.csproj.CopyComplete
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.dll
+D:\Web Project\AcademicERP 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.pdb
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\StudentLogin.dll.config
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\StudentLogin.dll
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\StudentLogin.pdb
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\Antlr3.Runtime.dll
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\Microsoft.Web.Infrastructure.dll
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\Newtonsoft.Json.dll
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.Helpers.dll
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.Mvc.dll
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.Optimization.dll
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.Razor.dll
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.WebPages.Deployment.dll
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.WebPages.dll
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.WebPages.Razor.dll
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\WebGrease.dll
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.Helpers.xml
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.Mvc.xml
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.Optimization.xml
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.Razor.xml
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.WebPages.xml
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.WebPages.Deployment.xml
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\System.Web.WebPages.Razor.xml
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\Newtonsoft.Json.xml
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\bin\Antlr3.Runtime.pdb
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\obj\Release\StudentLogin.csprojAssemblyReference.cache
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\obj\Release\StudentLogin.csproj.CoreCompileInputs.cache
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\obj\Release\StudentLogin.csproj.CopyComplete
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\obj\Release\StudentLogin.dll
+G:\New_Project\P_S_T\StudentLogin-CRUD\StudentLogin\obj\Release\StudentLogin.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\StudentLogin.dll.config
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\StudentLogin.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\StudentLogin.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\Antlr3.Runtime.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\Microsoft.Web.Infrastructure.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\Newtonsoft.Json.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Helpers.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Mvc.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Optimization.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Razor.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.Deployment.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.Razor.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\WebGrease.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Helpers.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Mvc.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Optimization.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Razor.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.Deployment.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.Razor.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\Newtonsoft.Json.xml
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\bin\Antlr3.Runtime.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.csproj.CoreCompileInputs.cache
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.csproj.CopyComplete
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.dll
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.pdb
+D:\OneDrive - Deepak Sah\live project\Academic 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.csproj.AssemblyReference.cache
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\StudentLogin.dll.config
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\StudentLogin.dll
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\StudentLogin.pdb
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\Antlr3.Runtime.dll
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\Microsoft.Web.Infrastructure.dll
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\Newtonsoft.Json.dll
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Helpers.dll
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Mvc.dll
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Optimization.dll
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Razor.dll
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.Deployment.dll
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.dll
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.Razor.dll
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\WebGrease.dll
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Helpers.xml
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Mvc.xml
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Optimization.xml
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.Razor.xml
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.xml
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.Deployment.xml
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\System.Web.WebPages.Razor.xml
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\Newtonsoft.Json.xml
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\bin\Antlr3.Runtime.pdb
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.csproj.AssemblyReference.cache
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.csproj.CoreCompileInputs.cache
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.csproj.CopyComplete
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.dll
+D:\OneDrive\live project\Academic 2.0\Student Project\StudentLogin\obj\Release\StudentLogin.pdb
