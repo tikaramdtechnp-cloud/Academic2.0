@@ -1179,6 +1179,7 @@
     <Compile Include="DA\Wallet\KhaltiDB.cs" />
     <Compile Include="DA\Wallet\OnlinePaymentDB.cs" />
     <Compile Include="DA\Wallet\PaymentGatewayDB.cs" />
+    <Compile Include="External_API\AakashSMS.cs" />
     <Compile Include="PE\Academic\EmployeeBirthDay.cs" />
     <Compile Include="PE\Academic\EmployeeSummary.cs" />
     <Compile Include="PE\Academic\StudentBirthDay.cs" />

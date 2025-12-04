@@ -72,3 +72,11 @@ E:\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.csproj.CoreCompileInputs.cache
 E:\Academic 2.0\AcademicLib\obj\Debug\Academic.88CA0013.Up2Date
 E:\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.dll
 E:\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.pdb
+D:\DynamicTechnosoft\Academic2.0\AcademicLib\bin\Debug\AcademicLib.dll
+D:\DynamicTechnosoft\Academic2.0\AcademicLib\bin\Debug\AcademicLib.pdb
+D:\DynamicTechnosoft\Academic2.0\AcademicLib\bin\Debug\Newtonsoft.Json.dll
+D:\DynamicTechnosoft\Academic2.0\AcademicLib\obj\Debug\AcademicLib.csproj.AssemblyReference.cache
+D:\DynamicTechnosoft\Academic2.0\AcademicLib\obj\Debug\AcademicLib.csproj.CoreCompileInputs.cache
+D:\DynamicTechnosoft\Academic2.0\AcademicLib\obj\Debug\Academic.88CA0013.Up2Date
+D:\DynamicTechnosoft\Academic2.0\AcademicLib\obj\Debug\AcademicLib.dll
+D:\DynamicTechnosoft\Academic2.0\AcademicLib\obj\Debug\AcademicLib.pdb

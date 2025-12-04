@@ -1,1 +1,17 @@
 .vs/
+# Build artifacts
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Ignore all .obj and .bin files
+*.obj
+*.bin
+
+
+*.user
+*.userosscache
+*.suo
+*.cache
+

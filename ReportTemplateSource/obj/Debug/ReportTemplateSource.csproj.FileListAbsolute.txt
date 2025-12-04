@@ -47,3 +47,18 @@ D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTempl
 D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTe.D26932E6.Up2Date
 D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.exe
 D:\OneDrive\live project\Academic 2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.pdb
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\bin\Debug\ReportTemplateSource.exe.config
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\bin\Debug\ReportTemplateSource.exe
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\bin\Debug\ReportTemplateSource.pdb
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\bin\Debug\AcademicLib.dll
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\bin\Debug\DTBEBLDA.dll
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\bin\Debug\ReportEngine.dll
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\bin\Debug\Newtonsoft.Json.dll
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\bin\Debug\AcademicLib.pdb
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.csproj.AssemblyReference.cache
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.Properties.Resources.resources
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.csproj.GenerateResource.cache
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.csproj.CoreCompileInputs.cache
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\obj\Debug\ReportTe.D26932E6.Up2Date
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.exe
+D:\DynamicTechnosoft\Academic2.0\ReportTemplateSource\obj\Debug\ReportTemplateSource.pdb

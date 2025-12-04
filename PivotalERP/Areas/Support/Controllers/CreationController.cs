@@ -12,7 +12,7 @@ using PivotalERP;
 
 namespace AcademicERP.Areas.Support.Controllers
 {
-    public class CreationController : PivotalERP.Controllers.BaseController
+    public class AakashSMSController : PivotalERP.Controllers.BaseController
     {
         [HttpGet]
         public JsonNetResult GetSplash()

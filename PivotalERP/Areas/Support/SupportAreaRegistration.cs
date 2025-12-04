@@ -2,7 +2,7 @@
 
 namespace AcademicERP.Areas.Support
 {
-    public class SupportAreaRegistration : AreaRegistration 
+    public class SMSAreaRegistration : AreaRegistration 
     {
         public override string AreaName 
         {

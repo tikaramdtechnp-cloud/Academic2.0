@@ -642,6 +642,8 @@
     <Compile Include="Areas\Service\Controllers\ReportingController.cs" />
     <Compile Include="Areas\Service\ServiceAreaRegistration.cs" />
     <Compile Include="Areas\SMSEmail\SMSEmailAreaRegistration.cs" />
+    <Compile Include="Areas\SMS\Controllers\AakashSMSController.cs" />
+    <Compile Include="Areas\SMS\SMSAreaRegistration.cs" />
     <Compile Include="Areas\Support\Controllers\CreationController.cs" />
     <Compile Include="Areas\Support\Model\CustomerDashboard.cs" />
     <Compile Include="Areas\Support\Model\GenerateTicket.cs" />
@@ -1824,6 +1826,7 @@
     <Content Include="jslib\setup\CYearClosing.js" />
     <Content Include="jslib\setup\YearClosing.js" />
     <Content Include="jslib\smsemail\transaction.js" />
+    <Content Include="jslib\sms\AakashSms.js" />
     <Content Include="jslib\Support\AccountStatement.js" />
     <Content Include="jslib\Support\CreateTicket.js" />
     <Content Include="jslib\Support\Dashboard.js" />
@@ -3658,6 +3661,9 @@
     <Content Include="Areas\Academic\Views\Creation\SubjetMapping.cshtml" />
     <Content Include="Areas\Academic\Views\Transaction\AddStudent_Main.cshtml" />
     <Content Include="Areas\Attendance\Views\Creation\PayHeading.cshtml" />
+    <Content Include="Areas\SMS\Views\AakashSMS\AakashSMSAPI.cshtml" />
+    <Content Include="Areas\SMS\Views\web.config" />
+    <Content Include="Areas\SMS\Views\_ViewStart.cshtml" />
     <None Include="jslib\locales\locale-np.json.main" />
     <None Include="jslib\locales\locale-in.json.main" />
     <Content Include="Areas\Account\Views\Transaction\LedgerMerge.cshtml" />
@@ -5980,6 +5986,9 @@
     <Folder Include="Areas\SMSEmail\Controllers\" />
     <Folder Include="Areas\SMSEmail\Data\" />
     <Folder Include="Areas\SMSEmail\Views\Shared\" />
+    <Folder Include="Areas\SMS\Data\" />
+    <Folder Include="Areas\SMS\Models\" />
+    <Folder Include="Areas\SMS\Views\Shared\" />
     <Folder Include="Areas\Support\Data\" />
     <Folder Include="Areas\Support\Views\Shared\" />
     <Folder Include="Areas\Transport\Data\" />
