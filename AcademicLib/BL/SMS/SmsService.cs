@@ -17,11 +17,9 @@ namespace AcademicLib.BL.SMS {
             public SmsReportApiService()
             {
                 _httpClient=new HttpClient();
-                _httpClient.Timeout=TimeSpan.FromSeconds(60);
-                //_httpClient.DefaultRequestHeaders.Add("User-Agent", "");
-
-                _authToken=System.Configuration.ConfigurationManager.AppSettings["SmsApiToken"]
-                            ??"fc9b16025a8b2837322f7475cd601b34a684e952860b605ada375bf7ddac5632";
+                _httpClient.Timeout=TimeSpan.FromSeconds(90);
+                _authToken = System.Configuration.ConfigurationManager.AppSettings["SmsApiToken"];
+                _httpClient.DefaultRequestHeaders.Add("auth-token", _authToken);
             }
 
             public async Task<SmsApiResponse> GetSmsReportAsync(DateTime startDate, DateTime endDate,
@@ -32,10 +30,11 @@ namespace AcademicLib.BL.SMS {
                 try
                 {
 
+                    var content = new StringContent("{}", Encoding.UTF8, "application/json");
                     var queryParams = BuildQueryString(startDate, endDate, reportType, network, page);
                     var requestUrl = $"{_baseUrl}/sms/v4/api-report{queryParams}";
 
-                    var response = await _httpClient.GetAsync(requestUrl);
+                    var response = await _httpClient.PostAsync(requestUrl, content);
                     response.EnsureSuccessStatusCode();
 
                     var jsonContent = await response.Content.ReadAsStringAsync();
@@ -87,11 +86,11 @@ namespace AcademicLib.BL.SMS {
             private string BuildQueryString(DateTime startDate, DateTime endDate,
                                            string reportType, string network, int? page)
             {
-                var query = $"?start_date={startDate:yyyy-MM-dd}"+
-                           $"&end_date={endDate:yyyy-MM-dd}"+
-                           $"&report_type={reportType}"+
-                           $"&network={network}"+
-                           $"&auth_token={_authToken}";
+                var query = $"?start_date={startDate:yyyy-MM-dd}" +
+                           $"&end_date={endDate:yyyy-MM-dd}" +
+                           $"&report_type={reportType}" +
+                           $"&network={network}";
+                           //$"&auth_token={_authToken}";
 
                 if(page.HasValue)
                 {

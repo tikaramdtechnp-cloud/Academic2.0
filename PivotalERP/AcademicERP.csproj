@@ -642,7 +642,7 @@
     <Compile Include="Areas\Service\Controllers\ReportingController.cs" />
     <Compile Include="Areas\Service\ServiceAreaRegistration.cs" />
     <Compile Include="Areas\SMSEmail\SMSEmailAreaRegistration.cs" />
-    <Compile Include="Areas\SMS\Controllers\AakashSMSController.cs" />
+    <Compile Include="Areas\SMS\Controllers\SMSController.cs" />
     <Compile Include="Areas\SMS\SMSAreaRegistration.cs" />
     <Compile Include="Areas\Support\Controllers\CreationController.cs" />
     <Compile Include="Areas\Support\Model\CustomerDashboard.cs" />
@@ -1826,7 +1826,7 @@
     <Content Include="jslib\setup\CYearClosing.js" />
     <Content Include="jslib\setup\YearClosing.js" />
     <Content Include="jslib\smsemail\transaction.js" />
-    <Content Include="jslib\sms\AakashSms.js" />
+    <Content Include="jslib\sms\Sms.js" />
     <Content Include="jslib\Support\AccountStatement.js" />
     <Content Include="jslib\Support\CreateTicket.js" />
     <Content Include="jslib\Support\Dashboard.js" />
@@ -3661,7 +3661,7 @@
     <Content Include="Areas\Academic\Views\Creation\SubjetMapping.cshtml" />
     <Content Include="Areas\Academic\Views\Transaction\AddStudent_Main.cshtml" />
     <Content Include="Areas\Attendance\Views\Creation\PayHeading.cshtml" />
-    <Content Include="Areas\SMS\Views\AakashSMS\AakashSMSAPI.cshtml" />
+    <Content Include="Areas\SMS\Views\SMS\SMSAPI.cshtml" />
     <Content Include="Areas\SMS\Views\web.config" />
     <Content Include="Areas\SMS\Views\_ViewStart.cshtml" />
     <None Include="jslib\locales\locale-np.json.main" />

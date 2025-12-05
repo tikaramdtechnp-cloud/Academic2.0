@@ -55,23 +55,6 @@ D:\OneDrive\live project\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.csproj.C
 D:\OneDrive\live project\Academic 2.0\AcademicLib\obj\Debug\Academic.88CA0013.Up2Date
 D:\OneDrive\live project\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.dll
 D:\OneDrive\live project\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.pdb
-E:\Academic 2.0\AcademicLib\bin\Debug\AcademicLib.dll
-E:\Academic 2.0\AcademicLib\bin\Debug\AcademicLib.pdb
-E:\Academic 2.0\AcademicLib\bin\Debug\Newtonsoft.Json.dll
-E:\Academic 2.0\AcademicLib\bin\Debug\CRM.dll
-E:\Academic 2.0\AcademicLib\bin\Debug\itextsharp.dll
-E:\Academic 2.0\AcademicLib\bin\Debug\BarcodeLib.dll
-E:\Academic 2.0\AcademicLib\bin\Debug\QRCoder.dll
-E:\Academic 2.0\AcademicLib\bin\Debug\DTBEBLDA.pdb
-E:\Academic 2.0\AcademicLib\bin\Debug\ReportEngine.pdb
-E:\Academic 2.0\AcademicLib\bin\Debug\ReportEngine.dll.config
-E:\Academic 2.0\AcademicLib\bin\Debug\CRM.pdb
-E:\Academic 2.0\AcademicLib\bin\Debug\itextsharp.xml
-E:\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.csproj.AssemblyReference.cache
-E:\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.csproj.CoreCompileInputs.cache
-E:\Academic 2.0\AcademicLib\obj\Debug\Academic.88CA0013.Up2Date
-E:\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.dll
-E:\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.pdb
 D:\DynamicTechnosoft\Academic2.0\AcademicLib\bin\Debug\AcademicLib.dll
 D:\DynamicTechnosoft\Academic2.0\AcademicLib\bin\Debug\AcademicLib.pdb
 D:\DynamicTechnosoft\Academic2.0\AcademicLib\bin\Debug\Newtonsoft.Json.dll
@@ -80,3 +63,11 @@ D:\DynamicTechnosoft\Academic2.0\AcademicLib\obj\Debug\AcademicLib.csproj.CoreCo
 D:\DynamicTechnosoft\Academic2.0\AcademicLib\obj\Debug\Academic.88CA0013.Up2Date
 D:\DynamicTechnosoft\Academic2.0\AcademicLib\obj\Debug\AcademicLib.dll
 D:\DynamicTechnosoft\Academic2.0\AcademicLib\obj\Debug\AcademicLib.pdb
+E:\Academic 2.0\AcademicLib\bin\Debug\AcademicLib.dll
+E:\Academic 2.0\AcademicLib\bin\Debug\AcademicLib.pdb
+E:\Academic 2.0\AcademicLib\bin\Debug\Newtonsoft.Json.dll
+E:\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.csproj.AssemblyReference.cache
+E:\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.csproj.CoreCompileInputs.cache
+E:\Academic 2.0\AcademicLib\obj\Debug\Academic.88CA0013.Up2Date
+E:\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.dll
+E:\Academic 2.0\AcademicLib\obj\Debug\AcademicLib.pdb
