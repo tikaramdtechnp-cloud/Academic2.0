@@ -408,24 +408,51 @@
 				$scope.StudentPF = res1.data.Data;
 				$scope.StudentPF.StudentId = $scope.newQuickAccess.StudentId;
 
+				//$timeout(function () {
+				//	const qrcodeContainer = document.getElementById("qrcode");
+				//	qrcodeContainer.innerHTML = ""; // Clear previous QR code if any
+
+				//	if ($scope.StudentPF.QrCode) {
+				//		new QRCode(qrcodeContainer, {
+				//			text: $scope.StudentPF.QrCode,
+				//			width: 140,
+				//			height: 140,
+				//			colorDark: "#000000",
+				//			colorLight: "#ffffff",
+				//			correctLevel: QRCode.CorrectLevel.L
+				//		});
+				//	}
+
+				//});
+
 				$timeout(function () {
-					const qrcodeContainer = document.getElementById("qrcode");
-					qrcodeContainer.innerHTML = ""; // Clear previous QR code if any
+					try {
+						const qrcodeContainer = document.getElementById("qrcode");
+						qrcodeContainer.innerHTML = "";
 
-					if ($scope.StudentPF.QrCode) {
-						new QRCode(qrcodeContainer, {
-							text: $scope.StudentPF.QrCode,
-							width: 140,
-							height: 140,
-							colorDark: "#000000",
-							colorLight: "#ffffff",
-							correctLevel: QRCode.CorrectLevel.L
-						});
+						const raw = $scope.StudentPF.QrCode;
+						if (!raw) return;
+
+						const qr = qrcode(40, 'L'); // Version 40 + ECC L = max capacity
+						qr.addData(raw);
+						qr.make();
+
+						// Insert QR image
+						qrcodeContainer.innerHTML = qr.createImgTag(4);
+
+						// Save base64 PNG
+						$scope.StudentPF.QrCodeImg = qr.createDataURL(4);
+
+						if (!$scope.$$phase) $scope.$applyAsync();
+
+					} catch (e) {
+						console.error("QR error", e);
 					}
+				}, 0);
 
-				});
 
 
+			//	qrcode data= ”;lŽ}~‡b};SJMLIE;nŒ~‹b};SJNOKE;nŒ~‹gz†~;S;Ž’lGJMLI~“‘;E;i};S;RQKJK;–
 				if ($scope.StudentPF.PhotoPath && $scope.StudentPF.PhotoPath.length == 0)
 					$scope.StudentPF.PhotoPath = '/wwwroot/dynamic/images/avatar-img.png';
 				else if (!$scope.StudentPF.PhotoPath)

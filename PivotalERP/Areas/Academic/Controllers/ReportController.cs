@@ -673,6 +673,7 @@ namespace PivotalERP.Areas.Academic.Controllers
         public JsonNetResult GetStudentProfile(int StudentId,int? BatchId=null,int? ClassYearId=null,int? SemesterId=null)
         {
             var dataColl = new AcademicLib.BL.Academic.Transaction.Student(User.UserId, User.HostName,User.DBName).getStudentForApp(this.AcademicYearId, StudentId,BatchId,ClassYearId,SemesterId);
+            ViewBag.QRCode = dataColl.QrCode;
 
             return new JsonNetResult() { Data = dataColl, TotalCount = dataColl.IsSuccess ? 1 : 0, IsSuccess = dataColl.IsSuccess, ResponseMSG = dataColl.ResponseMSG };
         }

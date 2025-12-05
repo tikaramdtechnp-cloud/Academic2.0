@@ -81,7 +81,10 @@
     var entityReExamMarkSheet=@Convert.ToInt32(Dynamic.BusinessEntity.Global.RptFormsEntity.ReExamMarksheet);
 </script>
 @*<link href="~/wwwroot/dynamic/css/fee_receipt.css" rel="stylesheet" />*@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+@*<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>*@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+
+
 
 <script src="~/wwwroot/plugins/chart.js/Chart.min.js"></script>
 <link href="~/wwwroot/dynamic/css/quickaccess.0.css" rel="stylesheet" />
@@ -504,9 +507,9 @@
                                                             </div>
                                                             <div class="col-md-2">
                                                                 <div class="text-center">
-                                                                    <div id="qrcode"></div>
 
-                                                                    @*<img ng-src="{{StudentPF.QrCode || StudentPF.QrCode}}" class="img-fluid profile-img mb-2" alt="QRScan" style="height: 120px;border-radius: 15px;" />*@
+                                                                    <div id="qrcode" style="display:none;"></div>
+                                                                    <img ng-if="StudentPF.QrCode" ng-src="{{StudentPF.QrCode}}" class="img-fluid profile-img mb-2" alt="QRScan" style="height: 120px;border-radius: 15px;display:block;" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3332,7 +3335,7 @@
                                                 </div>
                                                 <div class="card">
                                                     <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                                                        <li class="nav-item1 mt-1">                                                           
+                                                        <li class="nav-item1 mt-1">
                                                             <a class="library active" id="pills-totalbooks-tab" data-toggle="pill" href="#pills-totalbooks" role="tab" aria-controls="pills-totalbooks" aria-selected="true"> Total Books Taken: {{totalBooksTaken}}</a>
                                                         </li>
                                                         <li class="nav-item mt-2">
@@ -3342,8 +3345,8 @@
                                                             <a class="library" id="pills-yetto-tab" data-toggle="pill" href="#pills-yetto" role="tab" aria-controls="pills-yetto" aria-selected="false">Yet to Return :  {{yetToReturnBooksCount}}</a>
                                                         </li>
                                                         @*<li class="nav-item mt-2">
-                                                            <a class="library mt-2" id="pills-lost-tab" data-toggle="pill" href="#pills-lost" role="tab" aria-controls="pills-lost" aria-selected="false">Lost : 1</a>
-                                                        </li>*@
+                                                                <a class="library mt-2" id="pills-lost-tab" data-toggle="pill" href="#pills-lost" role="tab" aria-controls="pills-lost" aria-selected="false">Lost : 1</a>
+                                                            </li>*@
                                                     </ul>
                                                     <div class="tab-content p-2" id="pills-tabContent">
                                                         <div class="tab-pane fade show active" id="pills-totalbooks" role="tabpanel" aria-labelledby="pills-totalbooks-tab">
@@ -3434,51 +3437,51 @@
                                                             </div>
                                                         </div>
                                                         @*<div class="tab-pane fade" id="pills-lost" role="tabpanel" aria-labelledby="pills-lost-tab">
-            <div class="table-scroll-x-y sales-main-table table-scroll">
-                <table id="main-table" class="main-table table table-sm table-bordered bg-white">
-                    <thead class="text-nowrap">
-                        <tr class="text-center">
-                            <th style="width: 110px">Accession No</th>
-                            <th style="width: 150px">Title</th>
-                            <th style="width: 150px">Subject</th>
-                            <th style="width: 120px">Issue Date</th>
-                            <th style="width: 100px">Credit Days</th>
-                            <th style="width: 130px">Outstanding Days</th>
-                            <th style="width: 130px">Fine</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>Social Studies</td>
-                            <td>10-02-2078</td>
-                            <td>10</td>
-                            <td>1</td>
-                            <td>10</td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>Mathematics</td>
-                            <td>10-02-2078</td>
-                            <td>10</td>
-                            <td>1</td>
-                            <td>10</td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>Science</td>
-                            <td>10-02-2078</td>
-                            <td>10</td>
-                            <td>1</td>
-                            <td>10</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>*@
+                                                                <div class="table-scroll-x-y sales-main-table table-scroll">
+                                                                    <table id="main-table" class="main-table table table-sm table-bordered bg-white">
+                                                                        <thead class="text-nowrap">
+                                                                            <tr class="text-center">
+                                                                                <th style="width: 110px">Accession No</th>
+                                                                                <th style="width: 150px">Title</th>
+                                                                                <th style="width: 150px">Subject</th>
+                                                                                <th style="width: 120px">Issue Date</th>
+                                                                                <th style="width: 100px">Credit Days</th>
+                                                                                <th style="width: 130px">Outstanding Days</th>
+                                                                                <th style="width: 130px">Fine</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>1</td>
+                                                                                <td>Social Studies</td>
+                                                                                <td>10-02-2078</td>
+                                                                                <td>10</td>
+                                                                                <td>1</td>
+                                                                                <td>10</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>1</td>
+                                                                                <td>Mathematics</td>
+                                                                                <td>10-02-2078</td>
+                                                                                <td>10</td>
+                                                                                <td>1</td>
+                                                                                <td>10</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>1</td>
+                                                                                <td>Science</td>
+                                                                                <td>10-02-2078</td>
+                                                                                <td>10</td>
+                                                                                <td>1</td>
+                                                                                <td>10</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>*@
                                                     </div>
                                                 </div>
                                             </div>
