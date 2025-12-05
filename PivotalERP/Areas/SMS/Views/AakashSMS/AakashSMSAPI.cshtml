@@ -1,22 +1,271 @@
-﻿
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+﻿<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="~/jslib/export/tableExport.js"></script>
 
 <script src="~/jslib/sms/AakashSms.js"></script>
-<div class="container">
-    <div class="panel panel-default" style="padding:15px;margin-top:10px;">
-        <div class="row">
-            <div class="col-md-2">
-                <div class="form-group mb-1 d-flex">
-                    <label class="mt-1" style="min-width:63px">From Date</label>
-                    <input type="text" class="form-control form-control-sm" date-picker ng-model="newVisitor.FromDate_TMP" date-detail="newVisitor.FromDateDet" >
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+    .loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .table td {
+        vertical-align: middle;
+    }
+
+    .badge {
+        font-size: 0.85em;
+        padding: 0.4em 0.8em;
+    }
+
+    .card {
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+</style>
+<div class="hold-transition  layout-navbar-fixed" ng-app="myApp" ng-controller="aakashSmSCntl">
+    <div class="container-fluid mt-4">
+        <!-- Header -->
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <h2>SMS Report Dashboard</h2>
+                <p class="text-muted">View and manage SMS messages sent through AakashSMS</p>
+            </div>
+        </div>
+
+        <!-- Date Range and Controls -->
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">Filters & Controls</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Start Date</label>
+                            <input type="date" class="form-control" ng-model="dateRange.startDate"
+                                   ng-change="loadSmsReport(1)" />
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>End Date</label>
+                            <input type="date" class="form-control" ng-model="dateRange.endDate"
+                                   ng-change="loadSmsReport(1)" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label>Status</label>
+                            <select class="form-control" ng-model="filters.status"
+                                    ng-options="status for status in statusOptions">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label>Network</label>
+                            <select class="form-control" ng-model="filters.network"
+                                    ng-options="network for network in networkOptions">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-2 d-flex align-items-end">
+                        <button class="btn btn-primary w-100" ng-click="loadSmsReport(1)"
+                                ng-disabled="isLoading">
+                            <span ng-if="!isLoading">Refresh</span>
+                            <span ng-if="isLoading">
+                                <i class="fas fa-spinner fa-spin"></i> Loading...
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row mt-2">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Search Messages</label>
+                            <input type="text" class="form-control" placeholder="Search by recipient, message, or status..."
+                                   ng-model="filters.searchText" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-end">
+                        <div class="btn-group w-100">
+                            <button class="btn btn-success" ng-click="loadAllMessages()"
+                                    ng-disabled="isLoading">
+                                <i class="fas fa-download"></i> Load All
+                            </button>
+                            <button class="btn btn-info" ng-click="exportToCSV()"
+                                    ng-disabled="isLoading">
+                                <i class="fas fa-file-export"></i> Export CSV
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="form-group mb-1 d-flex">
-                    <label class="mt-1" style="min-width:60px">To Date</label>
-                    <input type="text" class="form-control form-control-sm" date-picker ng-model="newVisitor.ToDate_TMP" date-detail="newVisitor.ToDateDet" >
+        </div>
+
+        <!-- Messages -->
+        <div class="row mb-3">
+            <div class="col-md-12">
+                <div ng-if="successMessage" class="alert alert-success alert-dismissible fade show">
+                    {{successMessage}}
+                    <button type="button" class="btn-close" ng-click="successMessage=''"></button>
                 </div>
+
+                <div ng-if="errorMessage" class="alert alert-danger alert-dismissible fade show">
+                    {{errorMessage}}
+                    <button type="button" class="btn-close" ng-click="errorMessage=''"></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <div class="card text-white bg-primary">
+                    <div class="card-body">
+                        <h5 class="card-title">Total Messages</h5>
+                        <h2 class="card-text">{{pagination.totalItems | number}}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-white bg-success">
+                    <div class="card-body">
+                        <h5 class="card-title">Filtered Messages</h5>
+                        <h2 class="card-text">{{filteredMessages().length | number}}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-white bg-info">
+                    <div class="card-body">
+                        <h5 class="card-title">Current Page</h5>
+                        <h2 class="card-text">{{pagination.currentPage}}/{{pagination.totalPages}}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-white bg-warning">
+                    <div class="card-body">
+                        <h5 class="card-title">Date Range</h5>
+                        <p class="card-text">
+                            {{dateRange.startDate | date:'mediumDate'}} to
+                            {{dateRange.endDate | date:'mediumDate'}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SMS Messages Table -->
+        <div class="card">
+            <div class="card-header bg-secondary text-white d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">SMS Messages</h5>
+                <span class="badge bg-light text-dark">
+                    Showing {{filteredMessages().length}} of {{pagination.totalItems}} messages
+                </span>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped mb-0">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Recipient</th>
+                                <th>Network</th>
+                                <th>Credit</th>
+                                <th>Status</th>
+                                <th>Created At</th>
+                                <th>Message</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-if="isLoading">
+                                <td colspan="6" class="text-center">
+                                    <div class="spinner-border text-primary" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
+                                    <p class="mt-2">Loading messages...</p>
+                                </td>
+                            </tr>
+
+                            <tr ng-if="!isLoading && filteredMessages().length === 0">
+                                <td colspan="6" class="text-center text-muted">
+                                    No messages found for the selected criteria.
+                                </td>
+                            </tr>
+
+                            <tr ng-repeat="msg in filteredMessages()" ng-class="{'table-success': msg.Status === 'delivered'}">
+                                <td>
+                                    <strong>{{msg.Recipient}}</strong>
+                                </td>
+                                <td>
+                                    <span class="badge bg-info">{{msg.Network | uppercase}}</span>
+                                </td>
+                                <td>
+                                    <span class="badge bg-secondary">{{msg.Credit}} credits</span>
+                                </td>
+                                <td>
+                                    <span class="badge" ng-class="getStatusClass(msg.Status)">
+                                        {{msg.Status}}
+                                    </span>
+                                </td>
+                                <td>
+                                    <small>{{formatDate(msg.Created_at)}}</small>
+                                </td>
+                                <td style="max-width: 300px;">
+                                    <div style="max-height: 60px; overflow: hidden; text-overflow: ellipsis;"
+                                         title="{{msg.Body}}">
+                                        {{msg.Body}}
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="card-footer" ng-if="pagination.totalPages > 1">
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center mb-0">
+                        <li class="page-item" ng-class="{'disabled': pagination.currentPage === 1}">
+                            <a class="page-link" href="#" ng-click="goToPage(pagination.currentPage - 1)">
+                                Previous
+                            </a>
+                        </li>
+
+                        <li class="page-item" ng-repeat="page in getPages()"
+                            ng-class="{'active': page === pagination.currentPage}">
+                            <a class="page-link" href="#" ng-click="goToPage(page)">
+                                {{page}}
+                            </a>
+                        </li>
+
+                        <li class="page-item" ng-class="{'disabled': pagination.currentPage === pagination.totalPages}">
+                            <a class="page-link" href="#" ng-click="goToPage(pagination.currentPage + 1)">
+                                Next
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Loading overlay -->
+        <div ng-if="isLoading" class="loading-overlay">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
             </div>
         </div>
     </div>

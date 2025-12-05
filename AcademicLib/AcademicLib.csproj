@@ -46,6 +46,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -812,6 +813,7 @@
     <Compile Include="BL\Setup\Themes.cs" />
     <Compile Include="BL\Setup\UDFClass.cs" />
     <Compile Include="BL\Setup\YearClosing.cs" />
+    <Compile Include="BL\SMS\SmsService.cs" />
     <Compile Include="BL\Transport\Creation\TransportAtt.cs" />
     <Compile Include="BL\Transport\Creation\TransportMapping.cs" />
     <Compile Include="BL\Transport\Creation\TransportPoint.cs" />

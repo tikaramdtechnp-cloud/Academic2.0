@@ -1,44 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace AcademicLib.External_API {
-    public class ApiResponse {
+namespace YourNamespace.Models {
+    public class SmsApiResponse {
         public string Status { get; set; }
-        public ResponseData Data { get; set; }
+        public SmsResponseData Data { get; set; }
     }
 
-    public class ResponseData {
+    public class SmsResponseData {
         public object UserJobFirstRow { get; set; }
-        public PagedResult Result { get; set; }
+        public PagedSmsResult Result { get; set; }
     }
 
-    public class PagedResult {
-        public int CurrentPage { get; set; }
-        public List<AakashSmsResponse> Data { get; set; }
-        public string FirstPageUrl { get; set; }
+    public class PagedSmsResult {
+        public int Current_page { get; set; }
+        public List<SmsMessage> Data { get; set; }
+        public string First_page_url { get; set; }
         public int From { get; set; }
-        public int LastPage { get; set; }
-        public string LastPageUrl { get; set; }
+        public int Last_page { get; set; }
+        public string Last_page_url { get; set; }
         public List<PaginationLink> Links { get; set; }
-        public string NextPageUrl { get; set; }
+        public string Next_page_url { get; set; }
         public string Path { get; set; }
-        public int PerPage { get; set; }
-        public string PrevPageUrl { get; set; }
+        public int Per_page { get; set; }
+        public string Prev_page_url { get; set; }
         public int To { get; set; }
         public int Total { get; set; }
     }
 
-    public class AakashSmsResponse {
+    public class SmsMessage {
         public string Recipient { get; set; }
         public string Network { get; set; }
         public string Body { get; set; }
         public string Credit { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public string Created_at { get; set; }
         public string Status { get; set; }
-        public DateTime UpdatedAt { get; set; }
+        public string Updated_at { get; set; }
     }
 
     public class PaginationLink {
